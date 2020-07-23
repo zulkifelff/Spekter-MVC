@@ -1,13 +1,31 @@
-﻿<ul>
-    <li class="breadcrumb-link active">
-        <a href="#">Home</a>
-    </li>
+﻿<div class="container no-padding">
 
-    <li class="breadcrumb-link">
-        <a href="#">Account</a>
-    </li>
+    @{
+        List<Spekter_MVC.Models.Breadcrumbs> breadcrumbElementList = ViewBag.breadcrumbData;
+    }
 
-    <li class="breadcrumb-link">
-        John Doe
-    </li>
-</ul>
+    <ul class="listed-class-breadcrumbs">
+        @foreach (var item in breadcrumbElementList)
+        {
+            Console.WriteLine(item);
+
+            if (String.IsNullOrEmpty(item.URL))
+            {
+                <li class="breadcrumb-link">
+                    @item.Label
+                </li>
+            }
+            else
+            {
+                <li class="breadcrumb-link active">
+                    <a href="@item.URL">@item.Label</a>
+                </li>
+            }
+
+
+
+        }
+
+    </ul>
+
+</div>
