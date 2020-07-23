@@ -1,24 +1,98 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.jumbotron-first {
+    height: 344px;
+    background: transparent url('../Content/Images/privacy.png') 0% 0% no-repeat padding-box;
+    border: 1px solid transparent;
+    opacity: 1;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.jumbotron-first-heading {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 130px;
+    margin-left: 60px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+    .jumbotron-first-heading:after {
+        content: '';
+        display: block;
+        border: 0.5px solid #FFF;
+        width: 240px;
+        margin-top: 20px;
+    }
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt130 {
+    margin-top: 130px;
+}
+
+.ml60 {
+    margin-left: 60px;
+}
+
+.no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.page-content
+{
+    padding-left:60px;
+}
+
+.main-heading-content {
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.main-paragraph-content {
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    color: #1F1F1F;
+    opacity: 1;
+}
+
+.mt15
+{
+    margin-top:15px;
+}
+
+.mt42
+{
+    margin-top:42px;
+}
+
+.sub-heading-content {
+    text-align: left;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.18px;
+    color: #1F1F1F;
+    opacity: 1;
+}
+
+.content-listing {
+    padding-left:20px;
+}
+
+.mt20
+{
+    margin-top:20px;
 }

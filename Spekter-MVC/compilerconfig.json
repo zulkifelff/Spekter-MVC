@@ -2,5 +2,9 @@
   {
     "outputFile": "Content/footer.css",
     "inputFile": "Content/footer.scss"
+  },
+  {
+    "outputFile": "Content/Header.css",
+    "inputFile": "Content/Header.scss"
   }
 ]

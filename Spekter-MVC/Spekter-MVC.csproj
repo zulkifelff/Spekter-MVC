@@ -138,6 +138,16 @@
     <Content Include="Content\footer.min.css">
       <DependentUpon>footer.css</DependentUpon>
     </Content>
+    <Content Include="Content\Header.css">
+      <DependentUpon>Header.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Header.min.css">
+      <DependentUpon>Header.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Images\privacy%402x.png" />
+    <Content Include="Content\Images\privacy.png" />
+    <Content Include="Content\Images\privacy\privacy%402x.png" />
+    <Content Include="Content\Images\privacy\privacy.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -149,6 +159,8 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <None Include="Content\footer.scss" />
+    <None Include="Content\Header.scss" />
+    <Content Include="Content\Images\privacy.zip" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -177,6 +189,7 @@
     <Content Include="Views\Privacy\Index.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Shared\Header.cshtml" />
+    <Content Include="Views\Shared\Jumbotron.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
