@@ -120,7 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\BreadcrumbObject.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Global.asax.cs">
@@ -131,9 +131,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\footer.css">
       <DependentUpon>footer.scss</DependentUpon>
     </Content>
@@ -147,6 +151,7 @@
       <DependentUpon>Header.css</DependentUpon>
     </Content>
     <Content Include="Content\Images\facebook-icon-footer.svg" />
+    <Content Include="Content\Images\facebook-icon-footer.zip" />
     <Content Include="Content\Images\logo-colored%402x.png" />
     <Content Include="Content\Images\logo-colored.png" />
     <Content Include="Content\Images\privacy%402x.png" />
@@ -157,19 +162,23 @@
     <Content Include="Content\Images\speckter-logo.zip" />
     <Content Include="Content\Images\twitter-icon-footer.svg" />
     <Content Include="Content\Images\whatsapp-icon-footer.svg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\tyre_mark_bottom.svg" />
+    <Content Include="Content\tyre_mark_bottom\tyre_mark_bottom%402x.png" />
+    <Content Include="Content\tyre_mark_bottom\tyre_mark_bottom.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <None Include="Content\footer.scss" />
-    <None Include="Content\Header.scss" />
-    <Content Include="Content\Images\facebook-icon-footer.zip" />
+    <Content Include="Content\footer.scss" />
+    <Content Include="Content\Header.scss" />
+    <Content Include="Content\tyre_mark_bottom.zip" />
+    <Content Include="Content\account.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -200,6 +209,7 @@
     <Content Include="Views\Shared\Header.cshtml" />
     <Content Include="Views\Shared\Jumbotron.cshtml" />
     <Content Include="Views\Shared\Breadcrumbs.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -209,10 +219,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
