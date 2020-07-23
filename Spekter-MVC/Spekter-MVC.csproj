@@ -144,6 +144,8 @@
     <Content Include="Content\Header.min.css">
       <DependentUpon>Header.css</DependentUpon>
     </Content>
+    <Content Include="Content\Images\logo-colored%402x.png" />
+    <Content Include="Content\Images\logo-colored.png" />
     <Content Include="Content\Images\privacy%402x.png" />
     <Content Include="Content\Images\privacy.png" />
     <Content Include="Content\Images\privacy\privacy%402x.png" />
@@ -161,6 +163,7 @@
     <None Include="Content\footer.scss" />
     <None Include="Content\Header.scss" />
     <Content Include="Content\Images\privacy.zip" />
+    <Content Include="Content\Images\speckter-logo.zip" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
