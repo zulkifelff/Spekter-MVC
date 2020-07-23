@@ -8,6 +8,7 @@
 }
 
 .footer-content {
+    width: 1200px;
     padding-top: 32px;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .each-footer-link li {
-    margin-right: 65px;
+    margin-right: 60px;
     display: inline-block;
     margin-bottom: 15px;
 }
@@ -43,4 +44,26 @@
     border-top: 1px solid #1F1F1F;
     opacity: 1;
     margin-top: 60px;
+}
+
+.text-righ-icon {
+    text-align: right;
+}
+
+.footer-center-content {
+    max-width: 629px;
+    margin-right: 25px !important;
+}
+
+.sm-icon-section {
+    width: 248px;
+}
+
+.copyright-path {
+    margin-top: 70px;
+}
+
+.icon-positioning {
+    width: 184px;
+    margin-right: 113px;
 }
