@@ -1,72 +1,33 @@
 ﻿.user-account-main-heading {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
-  letter-spacing: 0px;
-  color: #1F1F1F;
+  letter-spacing: 0;
+  color: #1f1f1f;
   text-transform: uppercase; }
-
-.user-account-main-heading:after {
-  content: "";
-  display: block;
-  width: 240px;
-  max-width: 240px;
-  border-bottom: 1px solid #FAAE11;
-  margin: 15px auto 0px; }
+  .user-account-main-heading:after {
+    content: "";
+    display: block;
+    width: 240px;
+    max-width: 240px;
+    border-bottom: 1px solid #faae11;
+    margin: 15px auto 0; }
 
 .label-account-detail {
   font-size: 22px;
   font-weight: 600;
   letter-spacing: -0.22px;
-  color: #000000;
+  color: black;
   margin-right: 20px; }
 
 .content-account-detail {
   font-weight: 400;
   font-size: 22px;
   letter-spacing: -0.22px;
-  color: #000000;
+  color: black;
   opacity: 1; }
-
-.panel.with-nav-tabs .panel-heading {
-  padding: 5px 5px 0 5px; }
-
-.panel.with-nav-tabs .nav-tabs {
-  border-bottom: none; }
-
-/********************************************************************/
-/*** PANEL DEFAULT ***/
-.with-nav-tabs.panel-default .nav-tabs > li > a,
-.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
-  color: #777; }
-
-.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
-  color: #777;
-  background-color: #ddd;
-  border-color: transparent; }
-
-.with-nav-tabs.panel-default .nav-tabs > li.active > a,
-.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
-  color: #555;
-  background-color: #fff;
-  border-color: #ddd;
-  border-bottom-color: transparent; }
-
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
-  background-color: #f5f5f5;
-  border-color: #ddd; }
-
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
-  color: #777; }
-
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
-  background-color: #ddd; }
 
 .product-image {
   width: 57px;
@@ -76,35 +37,58 @@
   text-align: center;
   font-weight: 500;
   font-size: 18px;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1; }
+  letter-spacing: 0;
+  color: black;
+  opacity: 1;
+  border-bottom: 0 solid #dddddd;
+  padding: 8px;
+  line-height: 1.42857143;
+  display: table-cell;
+  vertical-align: inherit; }
 
 .table-body-center {
   text-align: center;
   font-weight: 400;
   font-size: 18px;
-  letter-spacing: 0px;
-  color: #000000;
+  letter-spacing: 0;
+  color: black;
   opacity: 1;
   padding: 8px;
   line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 0px solid #ddd;
+  vertical-align: middle;
+  border-top: 0 solid #dddddd;
   box-sizing: border-box;
   display: table-cell; }
+  .table-body-center:nth-child(1) {
+    width: 122px; }
+  .table-body-center:nth-child(2) {
+    width: 239px; }
+  .table-body-center:nth-child(3) {
+    width: 91px; }
+  .table-body-center:nth-child(4) {
+    width: 110px; }
+  .table-body-center:nth-child(5) {
+    width: 158px; }
+  .table-body-center:nth-child(6) {
+    width: 127px; }
+  .table-body-center:nth-child(7) {
+    width: 111px; }
+  .table-body-center:nth-child(8) {
+    width: 150px; }
 
 .each-product-row {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  background: white 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   opacity: 1;
-  margin-bottom: 25px; }
+  vertical-align: inherit;
+  border-color: inherit;
+  margin-top: 25px; }
 
 .table > thead > tr > th {
-  border-bottom: 0px solid #ddd; }
+  border-bottom: 0 solid #dddddd; }
 
 .table > tbody > tr > td {
-  border-top: 0px solid #ddd;
+  border-top: 0 solid #dddddd;
   vertical-align: middle; }
 
 .table-header {
@@ -115,20 +99,54 @@
   box-sizing: border-box; }
 
 .table-body {
-  display: table-row-group;
-  vertical-align: middle;
+  display: inline-table;
   border-color: inherit;
   box-sizing: border-box; }
 
-.each-product-row, .each-head-row {
+.each-head-row {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit; }
 
-.table-header-center {
-  vertical-align: middle;
-  border-bottom: 0px solid #ddd;
-  padding: 8px;
-  line-height: 1.42857143;
-  display: table-cell;
-  vertical-align: inherit; }
+.panel.with-nav-tabs .panel-heading {
+  padding: 5px 5px 0 5px; }
+
+.panel.with-nav-tabs .nav-tabs {
+  border-bottom: none; }
+
+.with-nav-tabs.panel-default .nav-tabs > li > a {
+  color: #777777; }
+  .with-nav-tabs.panel-default .nav-tabs > li > a:hover {
+    color: #777777;
+    background-color: #dddddd;
+    border-color: transparent; }
+  .with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777777;
+    background-color: #dddddd;
+    border-color: transparent; }
+
+.with-nav-tabs.panel-default .nav-tabs > li.active > a {
+  color: #555555;
+  background-color: white;
+  border-color: #dddddd;
+  border-bottom-color: transparent; }
+  .with-nav-tabs.panel-default .nav-tabs > li.active > a:hover {
+    color: #555555;
+    background-color: white;
+    border-color: #dddddd;
+    border-bottom-color: transparent; }
+  .with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+    color: #555555;
+    background-color: white;
+    border-color: #dddddd;
+    border-bottom-color: transparent; }
+
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
+  background-color: whitesmoke;
+  border-color: #dddddd; }
+  .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #777777; }
+    .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover {
+      background-color: #dddddd; }
+    .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+      background-color: #dddddd; }

@@ -1,28 +1,39 @@
-﻿.user-account-main-heading {
-    margin-top: 0px;
-    margin-bottom: 0px;
+﻿//colors
+$color_mine_shaft_approx: rgba(31, 31, 31, 1);
+$color_sun_approx: rgba(250, 174, 17, 1);
+$black: rgba(0, 0, 0, 1);
+$color_alto_approx: rgba(221, 221, 221, 1);
+$white: rgba(255, 255, 255, 1);
+$black_16: rgba(0, 0, 0, 0.16);
+$color_boulder_approx: rgba(119, 119, 119, 1);
+$color_dorado_approx: rgba(85, 85, 85, 1);
+$color_wild_sand_approx: rgba(245, 245, 245, 1);
+
+.user-account-main-heading {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
-    letter-spacing: 0px;
-    color: #1F1F1F;
+    letter-spacing: 0;
+    color: $color_mine_shaft_approx;
     text-transform: uppercase;
-}
 
-.user-account-main-heading:after {
-    content: "";
-    display: block;
-    width: 240px;
-    max-width: 240px;
-    border-bottom: 1px solid #FAAE11;
-    margin: 15px auto 0px;
+    &:after {
+        content: "";
+        display: block;
+        width: 240px;
+        max-width: 240px;
+        border-bottom: 1px solid $color_sun_approx;
+        margin: 15px auto 0;
+    }
 }
 
 .label-account-detail {
     font-size: 22px;
     font-weight: 600;
     letter-spacing: -0.22px;
-    color: #000000;
+    color: $black;
     margin-right: 20px;
 }
 
@@ -30,54 +41,8 @@
     font-weight: 400;
     font-size: 22px;
     letter-spacing: -0.22px;
-    color: #000000;
+    color: $black;
     opacity: 1;
-}
-
-.panel.with-nav-tabs .panel-heading {
-    padding: 5px 5px 0 5px;
-}
-
-.panel.with-nav-tabs .nav-tabs {
-    border-bottom: none;
-}
-
-/********************************************************************/
-/*** PANEL DEFAULT ***/
-.with-nav-tabs.panel-default .nav-tabs > li > a,
-.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
-    color: #777;
-}
-
-.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
-    color: #777;
-    background-color: #ddd;
-    border-color: transparent;
-}
-
-.with-nav-tabs.panel-default .nav-tabs > li.active > a,
-.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
-    color: #555;
-    background-color: #fff;
-    border-color: #ddd;
-    border-bottom-color: transparent;
-}
-
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
-    background-color: #f5f5f5;
-    border-color: #ddd;
-}
-
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
-    color: #777;
-}
-
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
-.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
-    background-color: #ddd;
 }
 
 .product-image {
@@ -89,40 +54,83 @@
     text-align: center;
     font-weight: 500;
     font-size: 18px;
-    letter-spacing: 0px;
-    color: #000000;
+    letter-spacing: 0;
+    color: $black;
     opacity: 1;
+    border-bottom: 0 solid $color_alto_approx;
+    padding: 8px;
+    line-height: 1.42857143;
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 .table-body-center {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: 0px;
-    color: #000000;
+    letter-spacing: 0;
+    color: $black;
     opacity: 1;
     padding: 8px;
     line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 0px solid #ddd;
+    vertical-align: middle;
+    border-top: 0 solid $color_alto_approx;
+    //Instead of the line below you could use @include box-sizing($bs)
     box-sizing: border-box;
     display: table-cell;
+
+    &:nth-child(1) {
+        width: 122px;
+    }
+
+    &:nth-child(2) {
+        width: 239px;
+    }
+
+    &:nth-child(3) {
+        width: 91px;
+    }
+
+    &:nth-child(4) {
+        width: 110px;
+    }
+
+    &:nth-child(5) {
+        width: 158px;
+    }
+
+    &:nth-child(6) {
+        width: 127px;
+    }
+
+    &:nth-child(7) {
+        width: 111px;
+    }
+
+    &:nth-child(8) {
+        width: 150px;
+    }
 }
 
 .each-product-row {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 3px 6px $black_16;
     opacity: 1;
-    margin-bottom: 25px;
+    vertical-align: inherit;
+    border-color: inherit;
+    margin-top: 25px;
 }
 
-.table > thead > tr > th {
-    border-bottom: 0px solid #ddd;
-}
+.table {
+    > thead > tr > th {
+        border-bottom: 0 solid $color_alto_approx;
+    }
 
-.table > tbody > tr > td {
-    border-top: 0px solid #ddd;
-    vertical-align: middle;
+    > tbody > tr > td {
+        border-top: 0 solid $color_alto_approx;
+        vertical-align: middle;
+    }
 }
 
 .table-header {
@@ -130,27 +138,85 @@
     vertical-align: middle;
     width: 100%;
     border-color: inherit;
+    //Instead of the line below you could use @include box-sizing($bs)
     box-sizing: border-box;
 }
 
 .table-body {
-    display: table-row-group;
-    vertical-align: middle;
+    display: inline-table;
     border-color: inherit;
+    //Instead of the line below you could use @include box-sizing($bs)
     box-sizing: border-box;
 }
 
-.each-product-row, .each-head-row {
+.each-head-row {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
 
-.table-header-center {
-    vertical-align: middle;
-    border-bottom: 0px solid #ddd;
-    padding: 8px;
-    line-height: 1.42857143;
-    display: table-cell;
-    vertical-align: inherit;
+.panel.with-nav-tabs {
+    .panel-heading {
+        padding: 5px 5px 0 5px;
+    }
+
+    .nav-tabs {
+        border-bottom: none;
+    }
+}
+
+.with-nav-tabs.panel-default .nav-tabs > li {
+    > a {
+        color: $color_boulder_approx;
+
+        &:hover {
+            color: $color_boulder_approx;
+            background-color: $color_alto_approx;
+            border-color: transparent;
+        }
+
+        &:focus {
+            color: $color_boulder_approx;
+            background-color: $color_alto_approx;
+            border-color: transparent;
+        }
+    }
+
+    &.active > a {
+        color: $color_dorado_approx;
+        background-color: $white;
+        border-color: $color_alto_approx;
+        border-bottom-color: transparent;
+
+        &:hover {
+            color: $color_dorado_approx;
+            background-color: $white;
+            border-color: $color_alto_approx;
+            border-bottom-color: transparent;
+        }
+
+        &:focus {
+            color: $color_dorado_approx;
+            background-color: $white;
+            border-color: $color_alto_approx;
+            border-bottom-color: transparent;
+        }
+    }
+
+    &.dropdown .dropdown-menu {
+        background-color: $color_wild_sand_approx;
+        border-color: $color_alto_approx;
+
+        > li > a {
+            color: $color_boulder_approx;
+
+            &:hover {
+                background-color: $color_alto_approx;
+            }
+
+            &:focus {
+                background-color: $color_alto_approx;
+            }
+        }
+    }
 }
