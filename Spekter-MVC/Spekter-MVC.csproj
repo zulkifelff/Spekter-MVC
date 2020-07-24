@@ -167,6 +167,10 @@
       <DependentUpon>homepage.css</DependentUpon>
     </Content>
     <Content Include="Content\homepage.scss" />
+    <Content Include="Content\HomepageComment.css" />
+    <Content Include="Content\HomepageComment.min.css">
+      <DependentUpon>HomepageComment.css</DependentUpon>
+    </Content>
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o%402x.png" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o.png" />
     <Content Include="Content\Images\163.svg" />
@@ -291,6 +295,7 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\Images\tyre_mark_bottom.zip" />
+    <Content Include="Content\HomepageComment.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -325,6 +330,7 @@
     <Content Include="Views\Shared\Footer-Extended.cshtml" />
     <Content Include="Views\Home\Slider.cshtml" />
     <Content Include="Views\Home\InstagramFeed.cshtml" />
+    <Content Include="Views\Home\CommentSection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

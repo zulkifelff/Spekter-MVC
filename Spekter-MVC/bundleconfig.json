@@ -22,5 +22,11 @@
     "inputFiles": [
       "Content/homepage.css"
     ]
+  },
+  {
+    "outputFileName": "Content/HomepageComment.min.css",
+    "inputFiles": [
+      "Content/HomepageComment.css"
+    ]
   }
 ]
