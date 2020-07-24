@@ -262,7 +262,11 @@
     <Content Include="Content\Images\trash.svg" />
     <Content Include="Content\Images\twitter-icon-footer.svg" />
     <Content Include="Content\Images\twitter.svg" />
+    <Content Include="Content\Images\tyre_mark_bottom %281%29.svg" />
+    <Content Include="Content\Images\tyre_mark_bottom%402x.png" />
     <Content Include="Content\Images\tyre_mark_bottom.svg" />
+    <Content Include="Content\Images\tyre_mark_bottom\tyre_mark_bottom%402x.png" />
+    <Content Include="Content\Images\tyre_mark_bottom\tyre_mark_bottom.png" />
     <Content Include="Content\Images\tyre_mark_top.svg" />
     <Content Include="Content\Images\vitruvian-badr-XbvmyR3MyZo-unsplash%402x.png" />
     <Content Include="Content\Images\vitruvian-badr-XbvmyR3MyZo-unsplash-1%402x.png" />
@@ -286,6 +290,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\Images\tyre_mark_bottom.zip" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
