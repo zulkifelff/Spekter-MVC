@@ -87,3 +87,16 @@
     top: 25px;
     left: -4px;
 }
+
+.cliping-path {
+    height: 100px;
+    width: 100%;
+    background: black;
+    border: 1px solid black;
+    transform: skewX(0deg);
+    position: relative;
+    clip-path: polygon(100% 0%, 100% 0, 100% 100%, 0 100%);
+    z-index: 8;
+    position: absolute;
+    bottom: 0;
+}
