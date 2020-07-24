@@ -157,19 +157,17 @@
       <DependentUpon>Header.css</DependentUpon>
     </Content>
     <Content Include="Content\Images\facebook-icon-footer.svg" />
-    <Content Include="Content\Images\facebook-icon-footer.zip" />
-    <Content Include="Content\Images\jacket-image\lea-ochel-nsRBbE6-YLs-unsplash %281%29%402x.png" />
-    <Content Include="Content\Images\jacket-image\lea-ochel-nsRBbE6-YLs-unsplash %281%29.png" />
     <Content Include="Content\Images\jacket-leather-1.png" />
     <Content Include="Content\Images\jacket-leather-2.png" />
+    <Content Include="Content\Images\jacket-leather-3.png" />
+    <Content Include="Content\Images\jacket-leather-4.png" />
+    <Content Include="Content\Images\jacket-leather-5.png" />
+    <Content Include="Content\Images\jacket-leather-6.png" />
     <Content Include="Content\Images\logo-colored%402x.png" />
     <Content Include="Content\Images\logo-colored.png" />
     <Content Include="Content\Images\privacy%402x.png" />
     <Content Include="Content\Images\privacy.png" />
-    <Content Include="Content\Images\privacy.zip" />
-    <Content Include="Content\Images\privacy\privacy%402x.png" />
-    <Content Include="Content\Images\privacy\privacy.png" />
-    <Content Include="Content\Images\speckter-logo.zip" />
+    <Content Include="Content\Images\trash.svg" />
     <Content Include="Content\Images\twitter-icon-footer.svg" />
     <Content Include="Content\Images\whatsapp-icon-footer.svg" />
     <Content Include="Content\Site.css" />
@@ -189,7 +187,6 @@
     <Content Include="Content\footer.scss" />
     <Content Include="Content\Header.scss" />
     <Content Include="Content\account.scss" />
-    <Content Include="Content\Images\jacket-image.zip" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
