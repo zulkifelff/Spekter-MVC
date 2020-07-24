@@ -157,12 +157,19 @@
       <DependentUpon>Header.css</DependentUpon>
     </Content>
     <Content Include="Content\Images\facebook-icon-footer.svg" />
+    <Content Include="Content\Images\icon-account.svg" />
+    <Content Include="Content\Images\icon-cart.svg" />
+    <Content Include="Content\Images\icon-search.svg" />
     <Content Include="Content\Images\jacket-leather-1.png" />
     <Content Include="Content\Images\jacket-leather-2.png" />
     <Content Include="Content\Images\jacket-leather-3.png" />
     <Content Include="Content\Images\jacket-leather-4.png" />
     <Content Include="Content\Images\jacket-leather-5.png" />
     <Content Include="Content\Images\jacket-leather-6.png" />
+    <Content Include="Content\Images\leather_production_background_less.png" />
+    <Content Include="Content\Images\leather_productios%402x.png" />
+    <Content Include="Content\Images\leather_productios-logo.zip" />
+    <Content Include="Content\Images\leather_productios.png" />
     <Content Include="Content\Images\logo-colored%402x.png" />
     <Content Include="Content\Images\logo-colored.png" />
     <Content Include="Content\Images\privacy%402x.png" />

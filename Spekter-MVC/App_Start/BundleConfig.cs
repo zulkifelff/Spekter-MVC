@@ -23,7 +23,7 @@ namespace Spekter_MVC
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css", "~/Content/footer.css",
+                      "~/Content/bootstrap.css", "~/Content/footer.css", "~/Content/Header.css",
                       "~/Content/site.css"));
         }
     }
