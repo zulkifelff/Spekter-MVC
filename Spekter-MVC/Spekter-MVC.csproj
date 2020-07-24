@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\account.css" />
+    <Content Include="Content\account.css.map" />
     <Content Include="Content\account.min.css">
       <DependentUpon>account.css</DependentUpon>
     </Content>
@@ -148,6 +149,7 @@
     <Content Include="Content\footer.css">
       <DependentUpon>footer.scss</DependentUpon>
     </Content>
+    <Content Include="Content\footer.css.map" />
     <Content Include="Content\footer.min.css">
       <DependentUpon>footer.css</DependentUpon>
     </Content>
@@ -155,10 +157,16 @@
     <Content Include="Content\Header.css">
       <DependentUpon>Header.scss</DependentUpon>
     </Content>
+    <Content Include="Content\Header.css.map" />
     <Content Include="Content\Header.min.css">
       <DependentUpon>Header.css</DependentUpon>
     </Content>
     <Content Include="Content\Header.scss" />
+    <Content Include="Content\homepage.css" />
+    <Content Include="Content\homepage.min.css">
+      <DependentUpon>homepage.css</DependentUpon>
+    </Content>
+    <Content Include="Content\homepage.scss" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o%402x.png" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o.png" />
     <Content Include="Content\Images\163.svg" />
@@ -278,9 +286,6 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\account.css.map" />
-    <Content Include="Content\footer.css.map" />
-    <Content Include="Content\Header.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

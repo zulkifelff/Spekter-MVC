@@ -16,5 +16,11 @@
     "inputFiles": [
       "Content/bootstrap.css"
     ]
+  },
+  {
+    "outputFileName": "Content/homepage.min.css",
+    "inputFiles": [
+      "Content/homepage.css"
+    ]
   }
 ]

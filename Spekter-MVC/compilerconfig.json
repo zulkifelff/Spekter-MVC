@@ -10,5 +10,9 @@
   {
     "outputFile": "Content/account.css",
     "inputFile": "Content/account.scss"
+  },
+  {
+    "outputFile": "Content/homepage.css",
+    "inputFile": "Content/homepage.scss"
   }
 ]
