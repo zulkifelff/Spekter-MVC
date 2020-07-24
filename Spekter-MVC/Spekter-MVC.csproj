@@ -324,6 +324,7 @@
     <Content Include="Views\Account\Index.cshtml" />
     <Content Include="Views\Shared\Footer-Extended.cshtml" />
     <Content Include="Views\Home\Slider.cshtml" />
+    <Content Include="Views\Home\InstagramFeed.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
