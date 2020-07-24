@@ -6,7 +6,7 @@ body {
 
 .jumbotron-first {
     height: 344px;
-    background-size:100% !important;
+    background-size: 100% !important;
     border: 1px solid transparent;
     opacity: 1;
 }
@@ -41,11 +41,9 @@ body {
     margin-top: 80px;
 }
 
-
 .mb80 {
     margin-bottom: 80px;
 }
-
 
 .ml60 {
     margin-left: 60px;
@@ -132,4 +130,20 @@ body {
     content: "->";
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-center-details {
+    text-align: center;
+}
+
+.mt55 {
+    margin-top: 55px;
+}
+
+.mt120 {
+    margin-top: 120px;
 }

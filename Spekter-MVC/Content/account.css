@@ -7,3 +7,96 @@
   letter-spacing: 0px;
   color: #1F1F1F;
   text-transform: uppercase; }
+
+.user-account-main-heading:after {
+  content: "";
+  display: block;
+  width: 240px;
+  max-width: 240px;
+  border-bottom: 1px solid #FAAE11;
+  margin: 15px auto 0px; }
+
+.label-account-detail {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  color: #000000;
+  margin-right: 20px; }
+
+.content-account-detail {
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: -0.22px;
+  color: #000000;
+  opacity: 1; }
+
+.panel.with-nav-tabs .panel-heading {
+  padding: 5px 5px 0 5px; }
+
+.panel.with-nav-tabs .nav-tabs {
+  border-bottom: none; }
+
+/********************************************************************/
+/*** PANEL DEFAULT ***/
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+  color: #777; }
+
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+  color: #777;
+  background-color: #ddd;
+  border-color: transparent; }
+
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+  color: #555;
+  background-color: #fff;
+  border-color: #ddd;
+  border-bottom-color: transparent; }
+
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
+  background-color: #f5f5f5;
+  border-color: #ddd; }
+
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
+  color: #777; }
+
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+  background-color: #ddd; }
+
+.product-image {
+  width: 57px;
+  height: 57px; }
+
+.table-header-center {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1; }
+
+.table-body-center {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1; }
+
+.each-product-row {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  opacity: 1;
+  margin-bottom: 25px; }
+
+.table > thead > tr > th {
+  border-bottom: 0px solid #ddd; }
+
+.table > tbody > tr > td {
+  border-top: 0px solid #ddd;
+  vertical-align: middle; }
