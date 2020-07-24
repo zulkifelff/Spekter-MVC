@@ -25,7 +25,7 @@
 <div class="container no-padding mt55 order-detail-section">
 
 
-    <div class="col-md-12">
+    <div class="col-md-12 no-padding mb450">
         <div class="panel wispan-nav-tabs panel-default">
             <div class="panel-heading">
                 <ul class="nav nav-tabs">
@@ -50,11 +50,12 @@
                                         <span class="table-header-center">Price</span>
                                         <span class="table-header-center">Remove</span>
                                     </div>
-                                   
+
                                 </div>
 
                                 <div class="clearfix table-body">
-                                    <div class="each-product-row">
+
+                                    <div data-product-id="1" class="each-product-row">
 
 
                                         <span class="table-body-center">
@@ -63,42 +64,41 @@
                                         <span class="table-body-center">Leaspaner Jacket</span>
                                         <span class="table-body-center">XL</span>
                                         <span class="table-body-center">Black</span>
-                                        <span class="table-body-center"><span>1</span></span>
+                                        <span class="table-body-center"><span id="decrease-quantity" class="table-quantity-btn pointer">-</span><span class="margin-button-quantity">1</span><span id="increase-quantity" class=" pointer table-quantity-btn">+</span></span>
                                         <span class="table-body-center">Pending</span>
                                         <span class="table-body-center">400</span>
-                                        <span class="table-body-center"><img class="pointer" src="~/Content/Images/trash.svg" /></span>
+                                        <span class="table-body-center"><img class="pointer delete-product" src="~/Content/Images/trash.svg" /></span>
+                                    </div>
+
+                                    <div data-product-id="2" class="each-product-row">
+
+
+                                        <span class="table-body-center">
+                                            <img class="product-image" src="~/Content/Images/jacket-leather-4.png" />
+                                        </span>
+                                        <span class="table-body-center">Leaspaner Jacket</span>
+                                        <span class="table-body-center">XL</span>
+                                        <span class="table-body-center">Black</span>
+                                        <span class="table-body-center"><span id="decrease-quantity" class="table-quantity-btn pointer">-</span><span class="margin-button-quantity">1</span><span id="increase-quantity" class=" pointer table-quantity-btn">+</span></span>
+                                        <span class="table-body-center">Pending</span>
+                                        <span class="table-body-center">400</span>
+                                        <span class="table-body-center"><img class="pointer delete-product" src="~/Content/Images/trash.svg" /></span>
                                     </div>
 
 
-                                    <div class="each-product-row">
+                                    <div data-product-id="3" class="each-product-row">
 
 
                                         <span class="table-body-center">
-                                            <img class="product-image" src="~/Content/Images/jacket-leather-2.png" />
+                                            <img class="product-image" src="~/Content/Images/jacket-leather-5.png" />
                                         </span>
                                         <span class="table-body-center">Leaspaner Jacket</span>
                                         <span class="table-body-center">XL</span>
                                         <span class="table-body-center">Black</span>
-                                        <span class="table-body-center"><span>1</span></span>
+                                        <span class="table-body-center"><span id="decrease-quantity" class="table-quantity-btn pointer">-</span><span class="margin-button-quantity">1</span><span id="increase-quantity" class=" pointer table-quantity-btn">+</span></span>
                                         <span class="table-body-center">Pending</span>
                                         <span class="table-body-center">400</span>
-                                        <span class="table-body-center"><img class="pointer" src="~/Content/Images/trash.svg" /></span>
-                                    </div>
-
-
-                                    <div class="each-product-row">
-
-
-                                        <span class="table-body-center">
-                                            <img class="product-image" src="~/Content/Images/jacket-leather-2.png" />
-                                        </span>
-                                        <span class="table-body-center">Leaspaner Jacket</span>
-                                        <span class="table-body-center">XL</span>
-                                        <span class="table-body-center">Black</span>
-                                        <span class="table-body-center"><span>1</span></span>
-                                        <span class="table-body-center">Pending</span>
-                                        <span class="table-body-center">400</span>
-                                        <span class="table-body-center"><img class="pointer" src="~/Content/Images/trash.svg" /></span>
+                                        <span class="table-body-center"><img class="pointer delete-product" src="~/Content/Images/trash.svg" /></span>
                                     </div>
 
 
@@ -116,7 +116,80 @@
 
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="tab2default">Default 2</div>
+                    <div class="tab-pane fade" id="tab2default">
+                        <div class="table-responsive">
+                            <div class="table table-bordred">
+                                <div class="clearfix table-header">
+                                    <div class="each-head-row">
+                                        <span class="table-header-center">Image</span>
+                                        <span class="table-header-center">Product Name</span>
+                                        <span class="table-header-center">Size</span>
+                                        <span class="table-header-center">Color</span>
+                                        <span class="table-header-center">Quantity</span>
+                                        <span class="table-header-center">Status</span>
+                                        <span class="table-header-center">Price</span>
+                                        <span class="table-header-center">Remove</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="clearfix table-body">
+
+                                    <div data-product-id="1" class="each-product-row">
+
+
+                                        <span class="table-body-center">
+                                            <img class="product-image" src="~/Content/Images/jacket-leather-2.png" />
+                                        </span>
+                                        <span class="table-body-center">Leaspaner Jacket</span>
+                                        <span class="table-body-center">XL</span>
+                                        <span class="table-body-center">Black</span>
+                                        <span class="table-body-center"><span id="decrease-quantity" class="table-quantity-btn pointer">-</span><span class="margin-button-quantity">1</span><span id="increase-quantity" class=" pointer table-quantity-btn">+</span></span>
+                                        <span class="table-body-center">Pending</span>
+                                        <span class="table-body-center">400</span>
+                                        <span class="table-body-center"><img class="pointer delete-product" src="~/Content/Images/trash.svg" /></span>
+                                    </div>
+
+                                    <div data-product-id="2" class="each-product-row">
+
+
+                                        <span class="table-body-center">
+                                            <img class="product-image" src="~/Content/Images/jacket-leather-4.png" />
+                                        </span>
+                                        <span class="table-body-center">Leaspaner Jacket</span>
+                                        <span class="table-body-center">XL</span>
+                                        <span class="table-body-center">Black</span>
+                                        <span class="table-body-center"><span id="decrease-quantity" class="table-quantity-btn pointer">-</span><span class="margin-button-quantity">1</span><span id="increase-quantity" class=" pointer table-quantity-btn">+</span></span>
+                                        <span class="table-body-center">Pending</span>
+                                        <span class="table-body-center">400</span>
+                                        <span class="table-body-center"><img class="pointer delete-product" src="~/Content/Images/trash.svg" /></span>
+                                    </div>
+
+
+                                    <div data-product-id="3" class="each-product-row">
+
+
+                                        <span class="table-body-center">
+                                            <img class="product-image" src="~/Content/Images/jacket-leather-5.png" />
+                                        </span>
+                                        <span class="table-body-center">Leaspaner Jacket</span>
+                                        <span class="table-body-center">XL</span>
+                                        <span class="table-body-center">Black</span>
+                                        <span class="table-body-center"><span id="decrease-quantity" class="table-quantity-btn pointer">-</span><span class="margin-button-quantity">1</span><span id="increase-quantity" class=" pointer table-quantity-btn">+</span></span>
+                                        <span class="table-body-center">Pending</span>
+                                        <span class="table-body-center">400</span>
+                                        <span class="table-body-center"><img class="pointer delete-product" src="~/Content/Images/trash.svg" /></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+
+                        </div>
+                    </div>
 
                 </div>
             </div>

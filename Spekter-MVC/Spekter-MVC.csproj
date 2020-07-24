@@ -218,6 +218,7 @@
     <Content Include="Views\Shared\Jumbotron.cshtml" />
     <Content Include="Views\Shared\Breadcrumbs.cshtml" />
     <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Views\Shared\Footer-Extended.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
