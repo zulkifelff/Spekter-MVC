@@ -134,6 +134,7 @@
     <Content Include="Content\account.min.css">
       <DependentUpon>account.css</DependentUpon>
     </Content>
+    <Content Include="Content\account.scss" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -150,12 +151,14 @@
     <Content Include="Content\footer.min.css">
       <DependentUpon>footer.css</DependentUpon>
     </Content>
+    <Content Include="Content\footer.scss" />
     <Content Include="Content\Header.css">
       <DependentUpon>Header.scss</DependentUpon>
     </Content>
     <Content Include="Content\Header.min.css">
       <DependentUpon>Header.css</DependentUpon>
     </Content>
+    <Content Include="Content\Header.scss" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o%402x.png" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o.png" />
     <Content Include="Content\Images\163.svg" />
@@ -167,6 +170,13 @@
     <Content Include="Content\Images\1fe6c82a3080f77861561ea362a0887a.png" />
     <Content Include="Content\Images\allef-vinicius-0JuH3xmGZ4o-unsplash%402x.png" />
     <Content Include="Content\Images\allef-vinicius-0JuH3xmGZ4o-unsplash.png" />
+    <Content Include="Content\Images\banner_2%402x.png" />
+    <Content Include="Content\Images\banner_2.png" />
+    <Content Include="Content\Images\banner_2.zip" />
+    <Content Include="Content\Images\banner_3%402x.png" />
+    <Content Include="Content\Images\banner_3.png" />
+    <Content Include="Content\Images\banner_4%402x.png" />
+    <Content Include="Content\Images\banner_4.png" />
     <Content Include="Content\Images\blk.svg" />
     <Content Include="Content\Images\colton-kresser-ap28RSuViyY-unsplash%402x.png" />
     <Content Include="Content\Images\colton-kresser-ap28RSuViyY-unsplash.png" />
@@ -212,7 +222,6 @@
     <Content Include="Content\Images\lea-ochel-nsRBbE6-YLs-unsplash %281%29.png" />
     <Content Include="Content\Images\leather_production_background_less.png" />
     <Content Include="Content\Images\leather_productios%402x.png" />
-    <Content Include="Content\Images\leather_productios-logo.zip" />
     <Content Include="Content\Images\leather_productios.png" />
     <Content Include="Content\Images\logo%402x.png" />
     <Content Include="Content\Images\logo-colored%402x.png" />
@@ -269,9 +278,9 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\footer.scss" />
-    <Content Include="Content\Header.scss" />
-    <Content Include="Content\account.scss" />
+    <Content Include="Content\account.css.map" />
+    <Content Include="Content\footer.css.map" />
+    <Content Include="Content\Header.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -304,6 +313,7 @@
     <Content Include="Views\Shared\Breadcrumbs.cshtml" />
     <Content Include="Views\Account\Index.cshtml" />
     <Content Include="Views\Shared\Footer-Extended.cshtml" />
+    <Content Include="Views\Home\Slider.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
