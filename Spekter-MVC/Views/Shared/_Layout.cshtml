@@ -10,10 +10,10 @@
 <body>
     @Html.Partial("~/Views/Shared/Header.cshtml")
     <div class="container-fluid body-content no-padding">
-      
-            @RenderBody()
 
- 
+        @RenderBody()
+
+
         @Html.Partial("~/Views/Shared/Footer.cshtml")
 
     </div>
@@ -21,5 +21,24 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script>
+    $(document).ready(function () {
+
+
+        $(".tab-pill").click(function () {
+            var currentElement = $(this);
+            $(".tab-pill").removeClass("active");
+            $(".each-comment-section").removeClass("active");
+            currentElement.addClass("active");
+            var fetchActiveDataComment = currentElement.attr("data-comment");
+            $("#comment" + fetchActiveDataComment).addClass("active");
+
+        });
+
+
+    });
+    </script>
+
 </body>
 </html>
