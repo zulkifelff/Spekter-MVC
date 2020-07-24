@@ -37,6 +37,12 @@ body {
     margin-top: 130px;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
 .mt80 {
     margin-top: 80px;
 }
@@ -148,12 +154,10 @@ body {
     margin-top: 120px;
 }
 
-.mb450
-{
-    margin-bottom:450px;
+.mb450 {
+    margin-bottom: 450px;
 }
 
-.mb35
-{
-    margin-bottom:35px;
+.mb35 {
+    margin-bottom: 35px;
 }
