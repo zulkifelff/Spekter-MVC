@@ -1,9 +1,9 @@
-﻿.carousel-caption {
+﻿.sliderHomepage .carousel-caption {
     bottom: 50%;
 }
 
 @media screen and (min-width: 768px) {
-    .carousel-caption {
+    .sliderHomepage .carousel-caption {
         right: 20%;
         left: 0;
         padding-bottom: 30px;
@@ -11,7 +11,7 @@
     }
 }
 
-.heading-carousel-styling {
+.sliderHomepage .heading-carousel-styling {
     text-align: left;
     font-weight: 700;
     font-size: 80px;
@@ -22,7 +22,7 @@
     opacity: 1;
 }
 
-.button-carousel-styling {
+.sliderHomepage .button-carousel-styling {
     /* width: 238px; */
     /* height: 50px; */
     background: #faae11 0% 0% no-repeat padding-box;
@@ -37,7 +37,7 @@
     padding: 13px 85px;
 }
 
-.carousel-indicators li {
+.sliderHomepage .carousel-indicators li {
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 0px;
@@ -45,11 +45,11 @@
     opacity: 1;
 }
 
-.carousel-indicators li.active {
+.sliderHomepage .carousel-indicators li.active {
     font-weight: 600;
 }
 
-.carousel-indicators li {
+.sliderHomepage .carousel-indicators li {
     width: 0px;
     height: 0px;
     margin-right: 23px;
@@ -61,7 +61,7 @@
     opacity: 1;
 }
 
-.carousel-indicators li.active {
+.sliderHomepage .carousel-indicators li.active {
     width: 0px;
     height: 21px;
     margin-right: 23px;
@@ -69,7 +69,7 @@
     background-color: #fff;
 }
 
-.carousel-indicators {
+.sliderHomepage .carousel-indicators {
     position: absolute;
     bottom: 25px;
     left: auto;
@@ -82,13 +82,13 @@
     list-style: none;
 }
 
-.page-number-carousel {
+.sliderHomepage .page-number-carousel {
     position: relative;
     top: 25px;
     left: -4px;
 }
 
-.cliping-path {
+.sliderHomepage .cliping-path {
     height: 100px;
     width: 100%;
     background: black;
@@ -127,8 +127,8 @@
 
 .instagram-feed-owner {
     text-align: left;
-    font-weight:700;
-    font-size:13px;
+    font-weight: 700;
+    font-size: 13px;
     letter-spacing: -0.13px;
     color: rgba(31, 31, 31, 1);
 }
@@ -142,7 +142,6 @@
     opacity: 1;
 }
 
-.feed-details .pull-left
-{
-    padding-bottom:10px;
+.feed-details .pull-left {
+    padding-bottom: 10px;
 }
