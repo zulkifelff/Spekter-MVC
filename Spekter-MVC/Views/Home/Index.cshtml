@@ -3,6 +3,9 @@
 }
 
 @Html.Partial("~/Views/Home/Slider.cshtml")
+@Html.Partial("~/Views/Home/FeaturedProduct.cshtml")
+@Html.Partial("~/Views/Home/HomeCollection.cshtml", new ViewDataDictionary { { "headingText", "Men Collection" } })
+@Html.Partial("~/Views/Home/HomeCollection.cshtml", new ViewDataDictionary { { "headingText", "Women Collection" } })
 
 <div class="mb130 clearfix">
 </div>

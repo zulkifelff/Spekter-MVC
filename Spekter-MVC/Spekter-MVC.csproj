@@ -202,6 +202,8 @@
     <Content Include="Content\Images\facebook.svg" />
     <Content Include="Content\Images\footer_logo%402x.png" />
     <Content Include="Content\Images\footer_logo.png" />
+    <Content Include="Content\Images\Group 2014%402x.png" />
+    <Content Include="Content\Images\Group 2014.png" />
     <Content Include="Content\Images\harley-davidson-aiBYhrzsQw4-unsplash%402x.png" />
     <Content Include="Content\Images\harley-davidson-aiBYhrzsQw4-unsplash.png" />
     <Content Include="Content\Images\harley-davidson-jd55yqwm6lw-unsplash%402x.png" />
@@ -331,6 +333,8 @@
     <Content Include="Views\Home\Slider.cshtml" />
     <Content Include="Views\Home\InstagramFeed.cshtml" />
     <Content Include="Views\Home\CommentSection.cshtml" />
+    <Content Include="Views\Home\HomeCollection.cshtml" />
+    <Content Include="Views\Home\FeaturedProduct.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

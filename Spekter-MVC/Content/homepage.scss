@@ -119,6 +119,7 @@
     letter-spacing: 0px;
     opacity: 1;
     color: #1f1f1f;
+    text-transform:uppercase;
 }
 
 .inner-post {
@@ -144,4 +145,50 @@
 
 .feed-details .pull-left {
     padding-bottom: 10px;
+}
+
+.collection-item-title {
+    text-align: left;
+    font-weight:500;
+    font-size:32px;
+    letter-spacing: -0.32px;
+    color: #000000;
+    opacity: 1;
+}
+
+.collection-item-price {
+    text-align: left;
+    font-weight:700;
+    font-size:24px;
+    letter-spacing: -0.24px;
+    color: #1F1F1F;
+    opacity: 1;
+}
+
+.collection-item-cart {
+    background: #FAAE11 0% 0% no-repeat padding-box;
+    text-align: center;
+    font-weight:700;
+    font-size:18px;
+    letter-spacing: -0.18px;
+    color: #FFFFFF;
+    text-align:center;
+    border:0px solid transparent;
+    padding:10px 55px;
+}
+
+.collection-block
+{
+
+}
+
+.each-collection:hover
+{
+    border:1px solid #f1f1f1;
+}
+
+.each-collection
+{
+    padding-top:15px;
+    padding-bottom:25px;
 }
