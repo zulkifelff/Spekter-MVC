@@ -12,10 +12,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img alt="Leather Production" style="max-width:259px;" src="~/Content/Images/leather_production_background_less.png" /></a>
+            <a class="navbar-brand" href="/Home"><img alt="Leather Production" style="max-width:259px;" src="~/Content/Images/leather_production_background_less.png" /></a>
         </div>
         <div class="collapse navbar-collapse no-padding" id="myNavbar">
-            
+
             <ul class="nav navbar-nav navbar-right">
                 <li><a class="active real-links" href="/Home">Home</a></li>
                 <li><a class="real-links" href="#">Men</a></li>
@@ -23,8 +23,30 @@
                 <li><a class="real-links" href="#">Contact Us</a></li>
                 <li><a class="utility-links search-header" href="javascript:void(0)"><span class="search-icon-css"></span></a></li>
                 <li><a class="utility-links cart-header" href="javascript:void(0)"><span class="icon-cart-css"></span></a></li>
-                <li><a class="utility-links account-header" href="javascript:void(0)"><span class="icon-account-css"></span></a></li>
+                <li><a data-toggle="modal" data-target="#myModalSignup" class="utility-links account-header" href="javascript:void(0)"><span class="icon-account-css"></span></a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+
+<div id="myModalSignup" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 class="modal-title">SIGN UP</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <span class="black-color">Already have an account ?</span>
+                <a spellcheck="true" href="#" class="yellow-color">SignIn</a>
+            </div>
+        </div>
+
+    </div>
+</div>

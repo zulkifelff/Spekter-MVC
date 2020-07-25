@@ -241,9 +241,28 @@ body {
     }
 }
 
-.mt90
-{
-    margin-top:90px;
+.mt90 {
+    margin-top: 90px;
 }
 
 
+#myModalSignup .modal-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#myModalSignup .modal-footer {
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+}
+
+.black-color {
+    color: #1F1F1F;
+}
