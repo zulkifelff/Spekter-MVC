@@ -204,6 +204,8 @@
     <Content Include="Content\Images\banner_4%402x.png" />
     <Content Include="Content\Images\banner_4.png" />
     <Content Include="Content\Images\blk.svg" />
+    <Content Include="Content\Images\broccoli%402x.png" />
+    <Content Include="Content\Images\broccoli.png" />
     <Content Include="Content\Images\colton-kresser-ap28RSuViyY-unsplash%402x.png" />
     <Content Include="Content\Images\colton-kresser-ap28RSuViyY-unsplash.png" />
     <Content Include="Content\Images\colton-sturgeon-oB7lLU9dwLc-unsplash%402x.png" />
@@ -314,6 +316,10 @@
     <Content Include="Content\Images\woman-1.jpg" />
     <Content Include="Content\Images\women%402x.png" />
     <Content Include="Content\Images\women.png" />
+    <Content Include="Content\ProductDetails.css" />
+    <Content Include="Content\ProductDetails.min.css">
+      <DependentUpon>ProductDetails.css</DependentUpon>
+    </Content>
     <Content Include="Content\ProductListing.css" />
     <Content Include="Content\ProductListing.min.css" />
     <Content Include="Content\Site.css" />
@@ -336,6 +342,8 @@
     <Content Include="Content\faq.css.map" />
     <Content Include="Content\Cart.css.map" />
     <Content Include="Content\Cart.scss" />
+    <Content Include="Content\ProductDetails.scss" />
+    <Content Include="Content\ProductDetails.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -377,6 +385,7 @@
     <Content Include="Views\FAQ\index.cshtml" />
     <Content Include="Views\Checkout\Index.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

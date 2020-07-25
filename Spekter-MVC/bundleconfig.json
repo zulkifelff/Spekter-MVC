@@ -40,5 +40,11 @@
     "inputFiles": [
       "Content/Cart.css"
     ]
+  },
+  {
+    "outputFileName": "Content/ProductDetails.min.css",
+    "inputFiles": [
+      "Content/ProductDetails.css"
+    ]
   }
 ]

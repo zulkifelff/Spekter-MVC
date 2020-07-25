@@ -30,5 +30,9 @@
   {
     "outputFile": "Content/faq.css",
     "inputFile": "Content/faq.scss"
+  },
+  {
+    "outputFile": "Content/ProductDetails.css",
+    "inputFile": "Content/ProductDetails.scss"
   }
 ]

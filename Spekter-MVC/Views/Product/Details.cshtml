@@ -1,0 +1,100 @@
+﻿<link rel="stylesheet" href="~/Content/ProductDetails.css" />
+@{
+    ViewBag.Title = "Product Detail";
+}
+
+
+@{
+
+    var modelVariable = Model;
+}
+<div class="mt80 clearfix">
+    @Html.Partial("~/Views/Shared/Breadcrumbs.cshtml", new ViewDataDictionary { { "breadcrumbData", modelVariable } })
+
+</div>
+
+<div class="container-fluid no-padding mt80">
+    <div class="container no-padding">
+
+        <div class="col-md-2 col-sm-12 no-padding hidden-sm hidden-xs">
+            <ul class="no-padding list-image-icons">
+                <li>
+                    <img style="width:130px;" src="~/Content/Images/broccoli@2x.png" />
+                </li>
+
+                <li>
+                    <img style="width:130px;" src="~/Content/Images/broccoli@2x.png" />
+                </li>
+
+                <li>
+                    <img style="width:130px;" src="~/Content/Images/broccoli@2x.png" />
+                </li>
+
+                <li>
+                    <img style="width:130px;" src="~/Content/Images/woman-1.jpg" />
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="col-md-5 col-sm-12 no-padding">
+            <img src="~/Content/Images/broccoli@2x.png" class="img-responsive" alt="Image Product" />
+        </div>
+
+        <div class="col-md-4 col-md-offset-1 col-sm-12 no-padding">
+
+            <div class="col-sm-12 col-md-12 no-padding mt20">
+                <h2 class="product-title">Leather Jacket</h2>
+            </div>
+
+            <div class="col-sm-12 col-md-12 no-padding mt20">
+                <h4 class="product-price">$ 8.99</h4>
+            </div>
+
+            <div class="col-sm-12 col-md-12 no-padding mt20">
+                <span class="pull-left product-quantity-label" style="margin-right:20px;  margin-top: 15px;">Quantity</span>
+                <select class="product-quantity-select ">
+                    <option value="null">Please select quantiy</option>
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="col-md-12 col-sm-12 no-padding mt25">
+                <button class="add-to-cart-btn">
+                    <span><img src="~/Content/Images/icon-add-cart.svg" /></span>
+                    <span>Add To Cart</span>
+                </button>
+            </div>
+
+            <div class="col-md-12 col-sm-12 no-padding mt25">
+                <span class="pull-left product-quantity-label" style="margin-right:20px;">Sizes</span>
+                <span class="exclaiming-icon pointer" title="Click Here">i</span>
+            </div>
+
+            <div class="col-md-12 col-sm-12 no-padding mt20">
+                <span class="size-styling active">S</span>
+                <span class="size-styling ">M</span>
+                <span class="size-styling ">L</span>
+                <span class="size-styling ">XL</span>
+            </div>
+
+            <div class="col-md-12 col-sm-12 no-padding mt25">
+                <span class="pull-left product-quantity-label" style="">Colors</span>
+               
+            </div>
+
+            <div class="col-md-12 col-sm-12 no-padding mt20">
+                <span class="size-styling active">Black</span>
+                <span class="size-styling ">Brown</span>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

@@ -42,7 +42,13 @@
             $('#myModalSignup').modal('toggle');
         });
 
-      
+
+        $('.size-styling').click(function () {
+            var currentElement = $(this);
+            $(".size-styling").removeClass("active");
+            currentElement.addClass("active");
+        }
+        );
 
     });
     </script>

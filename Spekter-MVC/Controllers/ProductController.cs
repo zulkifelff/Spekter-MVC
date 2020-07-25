@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Spekter_MVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -20,10 +21,16 @@ namespace Spekter_MVC.Controllers
             return View("~/Views/Product/ProductListing.cshtml");
         }
 
-        // GET: Product/Create
-        public ActionResult Create()
+        // GET: Product/Details/Leather
+        public ActionResult Details()
         {
-            return View();
+            List<Breadcrumbs> list = new List<Breadcrumbs>();
+            list.Add(new Breadcrumbs { URL = "/Home", Label = "Home" });
+            list.Add(new Breadcrumbs { URL = "/Product/CategoryDetails/Men", Label = "Men" });
+            list.Add(new Breadcrumbs { URL = null, Label = "Leather Jacket" });
+
+
+            return View("~/Views/Product/Details.cshtml", list);
         }
 
         // POST: Product/Create
