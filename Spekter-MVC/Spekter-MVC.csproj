@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
@@ -220,6 +221,7 @@
     <Content Include="Content\Images\harley-davidson-jd55yqwm6lw-unsplash.png" />
     <Content Include="Content\Images\icon-account.svg" />
     <Content Include="Content\Images\icon-add-cart.svg" />
+    <Content Include="Content\Images\icon-arrow-small.png" />
     <Content Include="Content\Images\icon-cart.svg" />
     <Content Include="Content\Images\icon-search.svg" />
     <Content Include="Content\Images\icon_add.svg" />
@@ -278,6 +280,8 @@
     <Content Include="Content\Images\Originals\milad-shams-LcLmhCiyupc-unsplash-1%402x.png" />
     <Content Include="Content\Images\Originals\mohammed-hassan-XpT7pQNHkO4-unsplash%402x.png" />
     <Content Include="Content\Images\Originals\woman-1.jpg" />
+    <Content Include="Content\Images\pattren-bottom.jpg" />
+    <Content Include="Content\Images\pattren.jpg" />
     <Content Include="Content\Images\privacy%402x.png" />
     <Content Include="Content\Images\privacy.png" />
     <Content Include="Content\Images\rBVaVFw-_aWAYsxxAAHphEX7Vfw867%402x.png" />
@@ -364,6 +368,7 @@
     <Content Include="Views\Home\FeaturedProduct.cshtml" />
     <Content Include="Views\Product\ProductListing.cshtml" />
     <Content Include="Views\FAQ\index.cshtml" />
+    <Content Include="Views\Checkout\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

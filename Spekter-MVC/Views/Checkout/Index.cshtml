@@ -1,0 +1,196 @@
+﻿@{
+    ViewBag.Title = "Checkout";
+}
+
+
+@{
+    //string headingTextVariable = "Privacy Policy";
+    //string backgroundImageURL = "/Content/Images/privacy.png";
+    var modelVariable = Model;
+}
+<div class="mt80 clearfix">
+    @Html.Partial("~/Views/Shared/Breadcrumbs.cshtml", new ViewDataDictionary { { "breadcrumbData", modelVariable } })
+
+</div>
+
+
+<div class="container-fluid no-padding">
+    <div class="container no-padding text-center mt80">
+        <h2 class="main-page-heading text-center">Checkout</h2>
+    </div>
+
+    <div class="container no-padding mt80 mb100">
+        <div class="col-md-6 col-sm-12 ">
+            <div class="clearfix information-detail block-stlying-checkout col-sm-12 col-md-12 no-padding">
+
+                <div class="col-md-12 col-sm-12">
+                    <h3>Personal Information</h3>
+                </div>
+
+                <div class="col-md-12 col-sm-12 mt10">
+                    <input placeholder="Full Name" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="Email" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="Phone" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="Street Address" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <select class="information-field-design-select">
+                        <option>Town/City</option>
+                    </select>
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <select class="information-field-design-select">
+                        <option>State/Province</option>
+                    </select>
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <select class="information-field-design-select">
+                        <option>Country/Region</option>
+                    </select>
+                </div>
+
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="Zip" class="information-field-design" />
+                </div>
+
+
+            </div>
+
+
+            <div class="clearfix information-detail-secondary col-sm-12 col-md-12 no-padding block-stlying-checkout mt30">
+
+                <div class="col-md-12 col-sm-12">
+                    <h3>Payment Method</h3>
+                </div>
+
+                <div class="col-md-12 col-sm-12 mt20">
+                    <label class="container-label-radio">
+                        Paypal
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container-label-radio">
+                        Zelle
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+
+                </div>
+
+
+                <div class="col-md-12 col-sm-12 mt10">
+                    <input placeholder="Full Name" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="Card Number" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="Expiration Date" class="information-field-design" />
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <input placeholder="CVV" class="information-field-design" />
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="col-md-6 col-sm-12">
+
+
+            <div class="clearfix information-detail block-stlying-checkout col-sm-12 col-md-12 no-padding">
+
+                <div class="col-md-12 col-sm-12">
+                    <h3>Order Detail</h3>
+                </div>
+
+                <div class="cart-detail clearfix col-md-12 col-sm-12 mt40">
+                    <div class="col-md-3 col-sm-12">
+                        <img style="width:121px;" src="~/Content/Images/lea-ochel-nsRBbE6-YLs-unsplash (1).png" />
+                    </div>
+
+                    <div class="col-md-9 col-sm-12">
+                        <p class="cart-item-title">Leather Jacket</p>
+                        <p class="cart-item-price">Rs 4000 x 2</p>
+                        <p class="cart-item-size">Size: XL</p>
+                    </div>
+                </div>
+
+
+                <div class="cart-detail clearfix col-md-12 col-sm-12 mt40">
+                    <div class="col-md-3 col-sm-12">
+                        <img style="width:121px;" src="~/Content/Images/lea-ochel-nsRBbE6-YLs-unsplash (1).png" />
+                    </div>
+
+                    <div class="col-md-9 col-sm-12">
+                        <p class="cart-item-title">Leather Jacket</p>
+                        <p class="cart-item-price">Rs 4000 x 2</p>
+                        <p class="cart-item-size">Size: XL</p>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 mt30">
+                    <div style="        border-bottom: 1px solid rgba(127, 127, 127, 1);" class="col-md-12 hidden-sm hidden-xs">
+
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 mt40">
+
+                    <div class="col-sm-12 col-md-12 clearfix">
+                        <div class="pull-left text-left cart-detail-price">
+                            Order Value
+                        </div>
+
+                        <div class="pull-right text-right cart-detail-price">
+                            $ 1500
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 clearfix">
+                        <div class="pull-left text-left cart-detail-price">
+                            Shipping
+                        </div>
+
+                        <div class="pull-right text-right cart-detail-price">
+                            $ 200
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 col-sm-12 mt40">
+
+                    <div class="col-sm-12 col-md-12">
+                        <div class="pull-left text-left cart-price-details">
+                            Total:
+                        </div>
+
+                        <div class="pull-right text-right cart-price-details">
+                            $ 15200
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
