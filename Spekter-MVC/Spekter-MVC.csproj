@@ -250,6 +250,8 @@
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\men%402x.png" />
     <Content Include="Content\Images\men.png" />
+    <Content Include="Content\Images\men_banner2%402x.png" />
+    <Content Include="Content\Images\men_banner2.png" />
     <Content Include="Content\Images\milad-shams-LcLmhCiyupc-unsplash%402x.png" />
     <Content Include="Content\Images\milad-shams-LcLmhCiyupc-unsplash-1%402x.png" />
     <Content Include="Content\Images\milad-shams-LcLmhCiyupc-unsplash-1.png" />
@@ -294,6 +296,8 @@
     <Content Include="Content\Images\woman-1.jpg" />
     <Content Include="Content\Images\women%402x.png" />
     <Content Include="Content\Images\women.png" />
+    <Content Include="Content\ProductListing.css" />
+    <Content Include="Content\ProductListing.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
@@ -308,6 +312,8 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\ProductListing.scss" />
+    <Content Include="Content\ProductListing.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -345,7 +351,7 @@
     <Content Include="Views\Home\CommentSection.cshtml" />
     <Content Include="Views\Home\HomeCollection.cshtml" />
     <Content Include="Views\Home\FeaturedProduct.cshtml" />
-    <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Product\ProductListing.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
