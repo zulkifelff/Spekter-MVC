@@ -14,10 +14,10 @@ namespace Spekter_MVC.Controllers
             return View();
         }
 
-        // GET: Product/Details/5
-        public ActionResult Details(int id)
+        // GET: Product/CategoryDetails/Men
+        public ActionResult CategoryDetails(string CategoryName)
         {
-            return View();
+            return View("~/Views/Product/ProductListing.cshtml");
         }
 
         // GET: Product/Create

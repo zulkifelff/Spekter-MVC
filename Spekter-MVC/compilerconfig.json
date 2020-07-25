@@ -18,5 +18,9 @@
   {
     "outputFile": "Content/HomepageComment.css",
     "inputFile": "Content/HomepageComment.scss"
+  },
+  {
+    "outputFile": "Content/ProductListing.css",
+    "inputFile": "Content/ProductListing.scss"
   }
 ]
