@@ -11,4 +11,8 @@ Up and live Links
 
 **FAQ**:  https://localhost:44352/FAQ
 
-**Homepage**: https://localhost:44352/
+**Homepage**: https://localhost:44352
+
+**Checkout**: https://localhost:44352/Checkout/Index
+
+**Cart**: https://localhost:44352/Cart/Index
