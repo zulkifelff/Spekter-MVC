@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -148,6 +149,10 @@
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\faq.css" />
+    <Content Include="Content\faq.min.css">
+      <DependentUpon>faq.css</DependentUpon>
+    </Content>
     <Content Include="Content\footer.css">
       <DependentUpon>footer.scss</DependentUpon>
     </Content>
@@ -203,6 +208,8 @@
     <Content Include="Content\Images\elizeu-dias-Pfe3Ln-hpyU-unsplash.png" />
     <Content Include="Content\Images\facebook-icon-footer.svg" />
     <Content Include="Content\Images\facebook.svg" />
+    <Content Include="Content\Images\FAQs%402x.png" />
+    <Content Include="Content\Images\FAQs.png" />
     <Content Include="Content\Images\footer_logo%402x.png" />
     <Content Include="Content\Images\footer_logo.png" />
     <Content Include="Content\Images\Group 2014%402x.png" />
@@ -215,6 +222,8 @@
     <Content Include="Content\Images\icon-add-cart.svg" />
     <Content Include="Content\Images\icon-cart.svg" />
     <Content Include="Content\Images\icon-search.svg" />
+    <Content Include="Content\Images\icon_add.svg" />
+    <Content Include="Content\Images\icon_negative_faq.svg" />
     <Content Include="Content\Images\IMG_8173%402x.png" />
     <Content Include="Content\Images\IMG_8173.png" />
     <Content Include="Content\Images\IMG_8719%402x.png" />
@@ -314,6 +323,8 @@
     </None>
     <Content Include="Content\ProductListing.scss" />
     <Content Include="Content\ProductListing.css.map" />
+    <Content Include="Content\faq.scss" />
+    <Content Include="Content\faq.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -352,6 +363,7 @@
     <Content Include="Views\Home\HomeCollection.cshtml" />
     <Content Include="Views\Home\FeaturedProduct.cshtml" />
     <Content Include="Views\Product\ProductListing.cshtml" />
+    <Content Include="Views\FAQ\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

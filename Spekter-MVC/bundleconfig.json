@@ -28,5 +28,11 @@
     "inputFiles": [
       "Content/HomepageComment.css"
     ]
+  },
+  {
+    "outputFileName": "Content/faq.min.css",
+    "inputFiles": [
+      "Content/faq.css"
+    ]
   }
 ]

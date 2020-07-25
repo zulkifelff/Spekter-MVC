@@ -9,6 +9,6 @@ Up and live Links
 
 **Product Listing**: https://localhost:44352/Product/CategoryDetails/Men
 
-**FAQ**:  https://localhost:44352/Product/CategoryDetails/Men
+**FAQ**:  https://localhost:44352/FAQ
 
 **Homepage**: https://localhost:44352/

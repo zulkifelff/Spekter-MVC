@@ -1,0 +1,64 @@
+#accordion .panel-heading {
+    padding: 0;
+}
+
+#accordion .panel-title > a {
+    display: block;
+    padding: 0.4em 0.6em;
+    outline: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#accordion .panel-title > a.accordion-toggle::before, #accordion a[data-toggle="collapse"]::before {
+    content: url(../../Content/Images/icon_negative_faq.svg);
+    float: left;
+    margin-right: 1em;
+}
+
+#accordion .panel-title > a.accordion-toggle.collapsed::before, #accordion a.collapsed[data-toggle="collapse"]::before {
+    content: url(../../Content/Images/icon_add.svg);
+}
+
+#accordion .panel-title > a.accordion-toggle::before, #accordion a[data-toggle="collapse"] {
+    color: #E0A420;
+}
+
+#accordion .panel-title > a.accordion-toggle.collapsed::before, #accordion a.collapsed[data-toggle="collapse"] {
+    color: #2F2A26;
+}
+
+.heading-title-styling {
+    text-align: left;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0px;
+    color: #2F2A26;
+}
+
+.faq-panel .panel-default > .panel-heading {
+    background-color: transparent;
+}
+
+.faq-panel .panel {
+    margin-bottom: 15px;
+    border-radius: 0px;
+    padding-bottom: 15px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid #000;
+}
+
+.faq-panel .panel-body {
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+    margin-top: 15px;
+    border-top: 2px solid #E0A420;
+}

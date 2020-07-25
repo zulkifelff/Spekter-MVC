@@ -1,0 +1,80 @@
+﻿<link rel="stylesheet" href="~/Content/faq.css">
+@{
+    ViewBag.Title = "FAQ";
+}
+
+
+@{
+    string headingTextVariable = "Men Collection";
+    string backgroundImageURL = "/Content/Images/FAQs@2x.png";
+    var modelVariable = Model;
+}
+
+@Html.Partial("~/Views/Shared/Jumbotron.cshtml", new ViewDataDictionary { { "headingText", headingTextVariable }, { "backgroundImage", backgroundImageURL } })
+
+<div class="container-fluid no-padding">
+    <div class="container no-padding mt40">
+        <h2 class="faq-heading">
+            FAQS
+        </h2>
+    </div>
+
+    <div class="container no-padding mt25">
+
+        <div class="col-md-12 no-padding" id="main">
+            <div class="panel-group faq-panel" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a class="heading-title-styling" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is Spekter ?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet est eu ex ultrices consequat. Morbi vel convallis augue, a convallis ligula. 
+                            Fusce tempor egestas aliquam. Praesent consequat sit amet orci vitae commodo. Nulla non felis a nisl condimentum mattis ac a massa. In maximus pellentesque quam, et commodo lacus egestas in. Aliquam mattis nisi ut risus dictum scelerisque ullamcorper ac ante. Praesent at lacus lectus. Nam mollis, ligula quis facilisis vestibulum, metus libero iaculis odio, at convallis tortor dui eget dui. Curabitur nunc diam, fringilla et neque sed, lobortis sollicitudin diam. Mauris finibus id quam vel scelerisque. Ut efficitur, augue vehicula varius ornare, massa nunc pellentesque eros, non tempus ligula lectus ac risus. Sed vitae sem eu eros eleifend tincidunt a quis ex. Maecenas eget metus eu lacus hendrerit maximus. Sed fermentum consequat neque, dignissim lacinia nibh rhoncus et. Nullam in suscipit dolor. Nulla non fermentum neque, in faucibus diam. Cras nec velit nec velit interdum elementum a in tellus. Nam aliquet ipsum scelerisque sollicitudin tempus. 
+                            In pulvinar ac dolor sit amet eleifend. Curabitur laoreet purus ac erat efficitur, eu tempus.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed heading-title-styling" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Why do we purchase product ?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed heading-title-styling" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                When will I receive my order?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vivamus sit amet est eu ex ultrices consequat. 
+                            Morbi vel convallis augue, a convallis ligula. Fusce tempor egestas aliquam. Praesent consequat sit amet orci vitae commodo. Nulla non felis a nisl condimentum mattis ac a massa. 
+                            In maximus pellentesque quam, et commodo lacus egestas in. Aliquam mattis nisi ut risus dictum scelerisque ullamcorper ac ante. Praesent at lacus lectus. Nam mollis, ligula quis facilisis vestibulum, metus libero iaculis odio, at convallis tortor dui eget dui. Curabitur nunc diam, fringilla et neque sed, lobortis sollicitudin diam. Mauris finibus id quam vel scelerisque. Ut efficitur, augue vehicula varius ornare, massa nunc pellentesque eros, non tempus ligula lectus ac risus. Sed vitae sem eu eros eleifend tincidunt a quis ex. Maecenas eget metus eu lacus hendrerit maximus. Sed fermentum consequat neque, dignissim lacinia nibh rhoncus et. Nullam in suscipit dolor. Nulla non fermentum neque, in faucibus diam. Cras nec velit nec velit interdum elementum a in tellus. 
+                            Nam aliquet ipsum scelerisque sollicitudin tempus. In pulvinar ac dolor sit amet eleifend. Curabitur laoreet purus ac erat efficitur, eu tempus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </div>
+</div>
