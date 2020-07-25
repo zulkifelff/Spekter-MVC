@@ -16,7 +16,7 @@
         </div>
         <div class="collapse navbar-collapse no-padding" id="myNavbar">
 
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style=" position: relative;">
                 <li><a class="active real-links" href="/Home">Home</a></li>
                 <li><a class="real-links" href="/Product/CategoryDetails/Men">Men</a></li>
                 <li><a class="real-links" href="#">Ladies</a></li>
@@ -24,10 +24,42 @@
                 <li><a class="utility-links search-header" href="javascript:void(0)"><span class="search-icon-css"></span></a></li>
                 <li><a class="utility-links cart-header" href="/Cart"><span class="icon-cart-css"></span></a></li>
                 <li><a data-toggle="modal" data-target="#myModalSignup" class="utility-links account-header" href="javascript:void(0)"><span class="icon-account-css"></span></a><span></span></li>
+
                 @*<li><a  class="utility-links account-header" href="/Account"><span class="icon-account-css"></span></a><span></span></li>*@
+
+                <span class="dropdown-content" id="myDropdown">
+                    <form class="col-sm-12 col-md-12" style="margin-bottom:10px;">
+
+                        <h4 class="modal-title">SIGN IN for wholesale pricing</h4>
+                        <div class="col-md-12 no-padding mt10">
+                            <input class="modal-field-signup email-field" placeholder="Email" />
+                        </div>
+
+                        <div class="col-md-12 no-padding mt10">
+                            <input class="modal-field-signup password-field" placeholder="Password" />
+                        </div>
+
+                        <div class="col-sm-12 no-padding mt10">
+                            <span style="font-size: 13px; letter-spacing: -0.13px; color: rgba(166, 188, 208, 1); opacity: 1;"> Forgot Password</span>
+                        </div>
+
+
+                        <div class="col-md-12 no-padding mt10">
+                            <button type="submit" class="submit-button">Sign In</button>
+                        </div>
+
+                        <div class="col-md-12 no-padding mt10 signin-options">
+                            <span class="black-color">Do not have a account ?</span>
+                            <a spellcheck="true" href="javascript:void(0)" class="yellow-color go-to-signup">Create Account</a>
+                        </div>
+
+                    </form>
+                </span>
 
 
             </ul>
+
+
         </div>
     </div>
 </nav>
@@ -48,15 +80,15 @@
                         </div>
 
                         <div class="col-md-12 no-padding mt10">
-                            <input class="modal-field-signup email-field" placeholder="Email"/>
+                            <input class="modal-field-signup email-field" placeholder="Email" />
                         </div>
 
                         <div class="col-md-12 no-padding mt10">
                             <input class="modal-field-signup password-field" placeholder="Password" />
                         </div>
 
-                        <div class="col-md-12 no-padding mt10" >
-                            <input class="modal-field-signup password-field" placeholder="Confirm Password"/>
+                        <div class="col-md-12 no-padding mt10">
+                            <input class="modal-field-signup password-field" placeholder="Confirm Password" />
                         </div>
 
                         <div class="col-md-12 no-padding mt10">
@@ -65,13 +97,13 @@
 
                         <div class="col-md-12 no-padding mt10 signin-options">
                             <span class="black-color">Already have an account ?</span>
-                            <a spellcheck="true" href="#" class="yellow-color go-to-signin">SignIn</a>
+                            <a spellcheck="true" href="javascript:void(0)" class="yellow-color go-to-signin">SignIn</a>
                         </div>
 
                     </form>
                 </div>
             </div>
-            
+
         </div>
 
     </div>

@@ -26,6 +26,9 @@
     <script>
         $(document).ready(function () {
 
+            function ToggleSignInMenu() {
+              
+            }
 
             $(".tab-pill").click(function () {
                 var currentElement = $(this);
@@ -38,8 +41,34 @@
             });
 
 
+
+           
+
+            $(".go-to-signup").click(function () {
+                $('#myModalSignup').modal('toggle');
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+                else {
+                    myDropdown.classList.add('show');
+                }
+
+
+            });
+
+
             $(".go-to-signin").click(function () {
                 $('#myModalSignup').modal('toggle');
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+                else {
+                    myDropdown.classList.add('show');
+                }
+
+
             });
 
 
@@ -67,8 +96,6 @@
                 $('.main-product-img').attr('src', selectedURL);
             }
             );
-
-            
 
         });
     </script>
