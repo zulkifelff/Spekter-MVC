@@ -159,6 +159,7 @@
     <Content Include="Content\faq.min.css">
       <DependentUpon>faq.css</DependentUpon>
     </Content>
+    <Content Include="Content\fitting_guide%402x.png" />
     <Content Include="Content\footer.css">
       <DependentUpon>footer.scss</DependentUpon>
     </Content>
@@ -218,6 +219,8 @@
     <Content Include="Content\Images\facebook.svg" />
     <Content Include="Content\Images\FAQs%402x.png" />
     <Content Include="Content\Images\FAQs.png" />
+    <Content Include="Content\Images\fitting_guide%402x.png" />
+    <Content Include="Content\Images\fitting_guide.png" />
     <Content Include="Content\Images\footer_logo%402x.png" />
     <Content Include="Content\Images\footer_logo.png" />
     <Content Include="Content\Images\Group 2014%402x.png" />

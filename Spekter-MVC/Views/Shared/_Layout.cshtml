@@ -24,33 +24,43 @@
     @RenderSection("scripts", required: false)
 
     <script>
-    $(document).ready(function () {
+        $(document).ready(function () {
 
 
-        $(".tab-pill").click(function () {
-            var currentElement = $(this);
-            $(".tab-pill").removeClass("active");
-            $(".each-comment-section").removeClass("active");
-            currentElement.addClass("active");
-            var fetchActiveDataComment = currentElement.attr("data-comment");
-            $("#comment" + fetchActiveDataComment).addClass("active");
+            $(".tab-pill").click(function () {
+                var currentElement = $(this);
+                $(".tab-pill").removeClass("active");
+                $(".each-comment-section").removeClass("active");
+                currentElement.addClass("active");
+                var fetchActiveDataComment = currentElement.attr("data-comment");
+                $("#comment" + fetchActiveDataComment).addClass("active");
+
+            });
+
+
+            $(".go-to-signin").click(function () {
+                $('#myModalSignup').modal('toggle');
+            });
+
+
+            $('.size-styling').click(function () {
+                var currentElement = $(this);
+                $(".size-styling").removeClass("active");
+                currentElement.addClass("active");
+            }
+            );
+
+
+
+
+            $('.color-styling').click(function () {
+                var currentElement = $(this);
+                $(".color-styling").removeClass("active");
+                currentElement.addClass("active");
+            }
+            );
 
         });
-
-
-        $(".go-to-signin").click(function () {
-            $('#myModalSignup').modal('toggle');
-        });
-
-
-        $('.size-styling').click(function () {
-            var currentElement = $(this);
-            $(".size-styling").removeClass("active");
-            currentElement.addClass("active");
-        }
-        );
-
-    });
     </script>
 
 </body>
