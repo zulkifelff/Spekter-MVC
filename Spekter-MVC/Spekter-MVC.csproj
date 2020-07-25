@@ -141,6 +141,10 @@
       <DependentUpon>account.css</DependentUpon>
     </Content>
     <Content Include="Content\account.scss" />
+    <Content Include="Content\banner_1%402x.png" />
+    <Content Include="Content\banner_1.png" />
+    <Content Include="Content\banner_5%402x.png" />
+    <Content Include="Content\banner_5.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -155,6 +159,10 @@
     <Content Include="Content\Cart.min.css">
       <DependentUpon>Cart.css</DependentUpon>
     </Content>
+    <Content Include="Content\confirm_password%402x.png" />
+    <Content Include="Content\confirm_password.png" />
+    <Content Include="Content\email%402x.png" />
+    <Content Include="Content\email.png" />
     <Content Include="Content\faq.css" />
     <Content Include="Content\faq.min.css">
       <DependentUpon>faq.css</DependentUpon>
@@ -319,6 +327,8 @@
     <Content Include="Content\Images\woman-1.jpg" />
     <Content Include="Content\Images\women%402x.png" />
     <Content Include="Content\Images\women.png" />
+    <Content Include="Content\password%402x.png" />
+    <Content Include="Content\password.png" />
     <Content Include="Content\ProductDetails.css" />
     <Content Include="Content\ProductDetails.min.css">
       <DependentUpon>ProductDetails.css</DependentUpon>
@@ -329,6 +339,8 @@
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
     </Content>
+    <Content Include="Content\username%402x.png" />
+    <Content Include="Content\username.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
