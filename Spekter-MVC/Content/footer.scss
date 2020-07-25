@@ -73,7 +73,9 @@
 }
 
 .contact-us-footer {
-    background: #faae11 0% 0% no-repeat padding-box;
+    //background: #faae11 0% 0% no-repeat padding-box;
+    background: #faae11 url('Images/pattren-bottom.jpg') no-repeat center bottom;
+    padding-bottom: 170px;
     opacity: 1;
     height: 100%;
 }
