@@ -171,6 +171,7 @@
     <Content Include="Content\HomepageComment.min.css">
       <DependentUpon>HomepageComment.css</DependentUpon>
     </Content>
+    <Content Include="Content\HomepageComment.scss" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o%402x.png" />
     <Content Include="Content\Images\103390494_694214531365476_7509983826189706552_o.png" />
     <Content Include="Content\Images\163.svg" />
@@ -261,6 +262,9 @@
     <Content Include="Content\Images\New-Style-MEN-S-Leather-Coat-Member-Designed-To-Shoot-Winter-Man-Tops-Clothing-Male-PU-2%402x.png" />
     <Content Include="Content\Images\New-Style-MEN-S-Leather-Coat-Member-Designed-To-Shoot-Winter-Man-Tops-Clothing-Male-PU-2.png" />
     <Content Include="Content\Images\New-Style-MEN-S-Leather-Coat-Member-Designed-To-Shoot-Winter-Man-Tops-Clothing-Male-PU.png" />
+    <Content Include="Content\Images\Originals\milad-shams-LcLmhCiyupc-unsplash-1%402x.png" />
+    <Content Include="Content\Images\Originals\mohammed-hassan-XpT7pQNHkO4-unsplash%402x.png" />
+    <Content Include="Content\Images\Originals\woman-1.jpg" />
     <Content Include="Content\Images\privacy%402x.png" />
     <Content Include="Content\Images\privacy.png" />
     <Content Include="Content\Images\rBVaVFw-_aWAYsxxAAHphEX7Vfw867%402x.png" />
@@ -275,6 +279,7 @@
     <Content Include="Content\Images\tyre_mark_bottom %281%29.svg" />
     <Content Include="Content\Images\tyre_mark_bottom%402x.png" />
     <Content Include="Content\Images\tyre_mark_bottom.svg" />
+    <Content Include="Content\Images\tyre_mark_bottom.zip" />
     <Content Include="Content\Images\tyre_mark_bottom\tyre_mark_bottom%402x.png" />
     <Content Include="Content\Images\tyre_mark_bottom\tyre_mark_bottom.png" />
     <Content Include="Content\Images\tyre_mark_top.svg" />
@@ -284,6 +289,7 @@
     <Content Include="Content\Images\vitruvian-badr-XbvmyR3MyZo-unsplash.png" />
     <Content Include="Content\Images\whatsapp-icon-footer.svg" />
     <Content Include="Content\Images\whatsapp.svg" />
+    <Content Include="Content\Images\woman-1.jpg" />
     <Content Include="Content\Images\women%402x.png" />
     <Content Include="Content\Images\women.png" />
     <Content Include="Content\Site.css" />
@@ -300,8 +306,6 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\Images\tyre_mark_bottom.zip" />
-    <Content Include="Content\HomepageComment.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
