@@ -205,6 +205,8 @@
     <Content Include="Content\Images\1fe6c82a3080f77861561ea362a0887a.png" />
     <Content Include="Content\Images\allef-vinicius-0JuH3xmGZ4o-unsplash%402x.png" />
     <Content Include="Content\Images\allef-vinicius-0JuH3xmGZ4o-unsplash.png" />
+    <Content Include="Content\Images\banner_1%402x.png" />
+    <Content Include="Content\Images\banner_1.png" />
     <Content Include="Content\Images\banner_2%402x.png" />
     <Content Include="Content\Images\banner_2.png" />
     <Content Include="Content\Images\banner_2.zip" />
@@ -212,6 +214,8 @@
     <Content Include="Content\Images\banner_3.png" />
     <Content Include="Content\Images\banner_4%402x.png" />
     <Content Include="Content\Images\banner_4.png" />
+    <Content Include="Content\Images\banner_5%402x.png" />
+    <Content Include="Content\Images\banner_5.png" />
     <Content Include="Content\Images\blk.svg" />
     <Content Include="Content\Images\broccoli%402x.png" />
     <Content Include="Content\Images\broccoli.png" />
@@ -219,10 +223,14 @@
     <Content Include="Content\Images\colton-kresser-ap28RSuViyY-unsplash.png" />
     <Content Include="Content\Images\colton-sturgeon-oB7lLU9dwLc-unsplash%402x.png" />
     <Content Include="Content\Images\colton-sturgeon-oB7lLU9dwLc-unsplash.png" />
+    <Content Include="Content\Images\confirm_password%402x.png" />
+    <Content Include="Content\Images\confirm_password.png" />
     <Content Include="Content\Images\david-todd-mccarty-f1XnRTqtD8o-unsplash%402x.png" />
     <Content Include="Content\Images\david-todd-mccarty-f1XnRTqtD8o-unsplash.png" />
     <Content Include="Content\Images\elizeu-dias-Pfe3Ln-hpyU-unsplash%402x.png" />
     <Content Include="Content\Images\elizeu-dias-Pfe3Ln-hpyU-unsplash.png" />
+    <Content Include="Content\Images\email%402x.png" />
+    <Content Include="Content\Images\email.png" />
     <Content Include="Content\Images\facebook-icon-footer.svg" />
     <Content Include="Content\Images\facebook.svg" />
     <Content Include="Content\Images\FAQs%402x.png" />
@@ -298,6 +306,8 @@
     <Content Include="Content\Images\Originals\milad-shams-LcLmhCiyupc-unsplash-1%402x.png" />
     <Content Include="Content\Images\Originals\mohammed-hassan-XpT7pQNHkO4-unsplash%402x.png" />
     <Content Include="Content\Images\Originals\woman-1.jpg" />
+    <Content Include="Content\Images\password%402x.png" />
+    <Content Include="Content\Images\password.png" />
     <Content Include="Content\Images\pattren-bottom.jpg" />
     <Content Include="Content\Images\pattren.jpg" />
     <Content Include="Content\Images\privacy%402x.png" />
@@ -318,6 +328,8 @@
     <Content Include="Content\Images\tyre_mark_bottom\tyre_mark_bottom%402x.png" />
     <Content Include="Content\Images\tyre_mark_bottom\tyre_mark_bottom.png" />
     <Content Include="Content\Images\tyre_mark_top.svg" />
+    <Content Include="Content\Images\username%402x.png" />
+    <Content Include="Content\Images\username.png" />
     <Content Include="Content\Images\vitruvian-badr-XbvmyR3MyZo-unsplash%402x.png" />
     <Content Include="Content\Images\vitruvian-badr-XbvmyR3MyZo-unsplash-1%402x.png" />
     <Content Include="Content\Images\vitruvian-badr-XbvmyR3MyZo-unsplash-1.png" />
