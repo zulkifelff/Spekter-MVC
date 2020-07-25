@@ -73,3 +73,7 @@
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
     padding: 22px 15px; } }
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin: 7.5px 0px; } }

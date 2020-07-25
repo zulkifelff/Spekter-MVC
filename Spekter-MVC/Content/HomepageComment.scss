@@ -63,3 +63,31 @@
     position: relative;
     top: 30px;
 }
+
+@media only screen and (max-width: 991px) {
+
+    .each-feed-section {
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+
+    .sliderHomepage .heading-carousel-styling {
+      
+        font-size: 24px;
+        
+    }
+
+    .sliderHomepage .carousel-caption {
+        bottom: 0%;
+    }
+
+    .sliderHomepage .button-carousel-styling {
+     
+     
+        font-size: 12px;
+    
+        padding: 7px 43px;
+    }
+
+}
