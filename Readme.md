@@ -16,3 +16,5 @@ Up and live Links
 **Checkout**: https://localhost:44352/Checkout/Index
 
 **Cart**: https://localhost:44352/Cart/Index
+
+**Product Details**: https://localhost:44352/Product/Details/Leather
