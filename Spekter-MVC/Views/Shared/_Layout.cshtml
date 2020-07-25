@@ -60,6 +60,16 @@
             }
             );
 
+            $('.list-image-icons li').click(function () {
+                var currentElement = $(this);
+                var selectedURL = currentElement.children().attr('src');
+                currentElement.addClass("active");
+                $('.main-product-img').attr('src', selectedURL);
+            }
+            );
+
+            
+
         });
     </script>
 
