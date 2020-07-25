@@ -67,28 +67,28 @@
   display: table-cell;
 }
 .table-body-center:nth-child(1) {
-  width: 129px;
+  width: 133px;
 }
 .table-body-center:nth-child(2) {
-  width: 253px;
+  width: 259px;
 }
 .table-body-center:nth-child(3) {
-  width: 96px;
+  width: 99px;
 }
 .table-body-center:nth-child(4) {
-  width: 116px;
+  width: 119px;
 }
 .table-body-center:nth-child(5) {
-  width: 167px;
+  width: 171px;
 }
 .table-body-center:nth-child(6) {
-  width: 134px;
+  width: 138px;
 }
 .table-body-center:nth-child(7) {
-  width: 117px;
+  width: 120px;
 }
 .table-body-center:nth-child(8) {
-  width: 158px;
+  width: 161px;
 }
 
 .each-product-row {
@@ -98,6 +98,8 @@
   vertical-align: inherit;
   border-color: inherit;
   margin-top: 25px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .table > thead > tr > th {
@@ -251,5 +253,67 @@
     margin-bottom: 100px;
   }
 }
+.label-cart-heading {
+  text-align: left;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.22px;
+  color: black;
+  opacity: 1;
+}
 
-/*# sourceMappingURL=account.css.map */
+.coupan-code-style {
+  background: white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #7f7f7f;
+  border: 0px solid transparent;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.apply-btn-coupan {
+  background: #faae11 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 0px solid transparent;
+  width: 100%;
+}
+
+.notice-styling {
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+}
+
+.notice-styling label {
+  font-weight: 500;
+}
+
+.total-content-style {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #363636;
+}
+
+.total-content-item-style {
+  color: rgba(91, 91, 91, 0.45);
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=Cart.css.map */

@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -150,6 +151,10 @@
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\Cart.css" />
+    <Content Include="Content\Cart.min.css">
+      <DependentUpon>Cart.css</DependentUpon>
+    </Content>
     <Content Include="Content\faq.css" />
     <Content Include="Content\faq.min.css">
       <DependentUpon>faq.css</DependentUpon>
@@ -329,6 +334,8 @@
     <Content Include="Content\ProductListing.css.map" />
     <Content Include="Content\faq.scss" />
     <Content Include="Content\faq.css.map" />
+    <Content Include="Content\Cart.css.map" />
+    <Content Include="Content\Cart.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -369,6 +376,7 @@
     <Content Include="Views\Product\ProductListing.cshtml" />
     <Content Include="Views\FAQ\index.cshtml" />
     <Content Include="Views\Checkout\Index.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

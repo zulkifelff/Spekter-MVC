@@ -34,5 +34,11 @@
     "inputFiles": [
       "Content/faq.css"
     ]
+  },
+  {
+    "outputFileName": "Content/Cart.min.css",
+    "inputFiles": [
+      "Content/Cart.css"
+    ]
   }
 ]
