@@ -68,36 +68,39 @@
     display: table-cell;
 
     &:nth-child(1) {
-        width: 133px;
+        width: 153px;
     }
 
     &:nth-child(2) {
-        width: 259px;
+        width: 299px;
     }
 
     &:nth-child(3) {
-        width: 99px;
-    }
-
-    &:nth-child(4) {
-        width: 119px;
+        width: 114px;
     }
 
     &:nth-child(5) {
-        width: 171px;
+        width: 198px;
     }
 
     &:nth-child(6) {
-        width: 138px;
+        width: 159px;
     }
 
     &:nth-child(7) {
+        width: 139px;
+    }
+
+    &:nth-child(4) {
+        width: 138px;
+    }
+    /*  &:nth-child(7) {
         width: 120px;
     }
 
     &:nth-child(8) {
         width: 161px;
-    }
+    }*/
 }
 
 .each-product-row {
