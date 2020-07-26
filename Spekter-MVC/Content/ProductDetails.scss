@@ -242,3 +242,26 @@
 {
     overflow:hidden;
 }
+
+
+
+@media screen and (max-width:768px)
+{
+    .list-image-icons {
+        width: 100%;
+        display: flex;
+        overflow: scroll;
+    }
+
+    .list-image-icons li {
+        margin-bottom: 0px;
+        cursor: default;
+        margin-right: 15px;
+    }
+
+    .list-image-icons li img
+    {
+        max-height:147px;
+
+    }
+}
