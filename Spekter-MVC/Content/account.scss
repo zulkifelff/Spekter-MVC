@@ -68,35 +68,35 @@
     display: table-cell;
 
     &:nth-child(1) {
-        width: 129px;
+        width: 133px;
     }
 
     &:nth-child(2) {
-        width: 253px;
+        width: 108px;
     }
 
     &:nth-child(3) {
-        width: 96px;
+        width: 166px;
     }
 
     &:nth-child(4) {
-        width: 116px;
+        width: 124px;
     }
 
     &:nth-child(5) {
-        width: 167px;
+        width: 137px;
     }
 
     &:nth-child(6) {
-        width: 134px;
+        width: 129px;
     }
 
     &:nth-child(7) {
-        width: 117px;
+        width: 190px;
     }
 
     &:nth-child(8) {
-        width: 158px;
+        width: 183px;
     }
 }
 
@@ -303,5 +303,26 @@
 
     .resultant-table-orders {
         margin-bottom: 100px;
+    }
+}
+
+
+
+@media(max-width:768px) {
+
+    .label-account-detail {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.22px;
+        color: black;
+        margin-right: 10px;
+    }
+
+    .content-account-detail {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.22px;
+        color: black;
+        opacity: 1;
     }
 }

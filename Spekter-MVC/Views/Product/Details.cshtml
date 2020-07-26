@@ -64,7 +64,7 @@
             </div>
 
             <div class="col-md-12 col-sm-12 no-padding mt25">
-                <button class="add-to-cart-btn">
+                <button onclick="addToCart()" class="add-to-cart-btn">
                     <span><img src="~/Content/Images/icon-add-cart.svg" /></span>
                     <span>Add To Cart</span>
                 </button>
@@ -266,3 +266,9 @@
 </div>
 
 
+<script>
+    function addToCart() {
+        location.href = "/Cart";
+
+    }
+</script>

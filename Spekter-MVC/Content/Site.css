@@ -459,4 +459,9 @@ body {
         padding-left:15px;
         padding-right:15px;
     }
+
+    .breadcrumb-link {
+        font-size: 14px;
+        letter-spacing: -0.5px;
+    }
 }

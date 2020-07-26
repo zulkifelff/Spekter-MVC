@@ -104,17 +104,17 @@
         <div class="col-md-4  col-sm-12 text-left">
             <div class="col-sm-12 col-md-12 no-padding">
                 <label class="label-cart-heading">
-                    My Coupan
+                    My Coupon
                 </label>
             </div>
 
 
             <div class="col-sm-12 col-md-12 no-padding">
-                <div class="col-md-6 col-sm-6 no-padding">
-                    <input class="coupan-code-style" placeholder="Coupan Code" />
+                <div class="col-md-6 col-sm-12 no-padding mt10">
+                    <input class="coupan-code-style" placeholder="Coupon Code" />
                 </div>
 
-                <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 no-padding">
+                <div class="col-md-5 col-md-offset-1 col-sm-12 no-padding mt10">
                     <button class="apply-btn-coupan">Apply Button</button>
                 </div>
             </div>
@@ -139,7 +139,7 @@
             </div>
 
             <div class="col-md-12 col-sm-12 no-padding mt10 clearfix">
-                <div class="pull-left">
+                <div class="total-content-item-position">
                     <span class="total-content-item-style">4 Items</span>
                 </div>
 
@@ -147,7 +147,7 @@
             </div>
 
             <div class="col-md-12 col-sm-12 no-padding mt20">
-                <button class="apply-btn-coupan">Checkout</button>
+                <button onclick="redirectToCheckout()" class="apply-btn-coupan">Checkout</button>
             </div>
 
         </div>
@@ -155,3 +155,10 @@
 
     <div class="mt40 container no-padding"></div>
 </div>
+
+<script>
+
+    function redirectToCheckout() {
+        location.href = "/Checkout/Index";
+    }
+</script>

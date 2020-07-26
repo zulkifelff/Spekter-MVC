@@ -125,6 +125,7 @@
     <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
@@ -374,6 +375,7 @@
     <Content Include="Content\Cart.scss" />
     <Content Include="Content\ProductDetails.scss" />
     <Content Include="Content\ProductDetails.css.map" />
+    <Content Include="Content\OrderDetail.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -416,6 +418,7 @@
     <Content Include="Views\Checkout\Index.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
