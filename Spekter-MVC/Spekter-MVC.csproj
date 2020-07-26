@@ -343,6 +343,10 @@
     <Content Include="Content\Images\woman-1.jpg" />
     <Content Include="Content\Images\women%402x.png" />
     <Content Include="Content\Images\women.png" />
+    <Content Include="Content\OrderDetail.css" />
+    <Content Include="Content\OrderDetail.min.css">
+      <DependentUpon>OrderDetail.css</DependentUpon>
+    </Content>
     <Content Include="Content\password%402x.png" />
     <Content Include="Content\password.png" />
     <Content Include="Content\ProductDetails.css" />
