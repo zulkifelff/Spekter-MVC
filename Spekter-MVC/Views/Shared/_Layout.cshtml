@@ -40,12 +40,11 @@
 
             });
 
+            
 
 
-           
+            $(".account-header").click(function () {
 
-            $(".go-to-signup").click(function () {
-                $('#myModalSignup').modal('toggle');
                 var myDropdown = document.getElementById("myDropdown");
                 if (myDropdown.classList.contains('show')) {
                     myDropdown.classList.remove('show');
@@ -58,8 +57,10 @@
             });
 
 
-            $(".go-to-signin").click(function () {
-                $('#myModalSignup').modal('toggle');
+           
+
+            $(".go-to-signup").click(function () {
+               
                 var myDropdown = document.getElementById("myDropdown");
                 if (myDropdown.classList.contains('show')) {
                     myDropdown.classList.remove('show');
@@ -67,7 +68,21 @@
                 else {
                     myDropdown.classList.add('show');
                 }
+                $('#myModalSignup').modal('toggle');
 
+            });
+
+
+            $(".go-to-signin").click(function () {
+                
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+                else {
+                    myDropdown.classList.add('show');
+                }
+                $('#myModalSignup').modal('toggle');
 
             });
 
@@ -91,9 +106,11 @@
 
             $('.list-image-icons li').click(function () {
                 var currentElement = $(this);
+                $('.list-image-icons li').removeClass('active');
                 var selectedURL = currentElement.children().attr('src');
                 currentElement.addClass("active");
                 $('.main-product-img').attr('src', selectedURL);
+                currentElement.addClass('active')
             }
             );
 

@@ -64,7 +64,7 @@
 }
 
 .copyright-path {
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 .icon-positioning {
@@ -73,12 +73,11 @@
 }
 
 .contact-us-footer {
-    //background: #faae11 0% 0% no-repeat padding-box;
-    background: #faae11 url('Images/pattren-bottom.jpg') no-repeat center bottom;
+    background: #faae11 url("Images/pattren-bottom.jpg") no-repeat center bottom;
     padding-bottom: 170px;
     opacity: 1;
     height: 100%;
-    background-size:contain;
+    background-size: contain;
 }
 
 .footer-extended-newsletter-heading {
@@ -86,7 +85,7 @@
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 0px;
-    color: rgba(250, 174, 17, 1);
+    color: #faae11;
     opacity: 1;
     text-transform: uppercase;
 }
@@ -97,7 +96,7 @@
     text-align: center;
     width: 240px;
     margin-top: 20px;
-    border-bottom: 0.5px solid rgba(250, 174, 17, 1);
+    border-bottom: 0.5px solid #faae11;
     margin: 20px auto 0 auto;
 }
 
@@ -174,16 +173,13 @@
     text-transform: uppercase;
 }
 
-.gap-fields {
-}
-
 .contact-us-form .submit-button-contact-us {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.4px;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(31, 31, 31, 1) 0% 0% no-repeat padding-box;
+    color: white;
+    background: #1f1f1f 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 20px 76px;
     text-transform: uppercase;
@@ -195,8 +191,8 @@
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.4px;
-    color: rgba(255, 255, 255, 1);
-    background: rgba(250, 174, 17, 1) 0% 0% no-repeat padding-box;
+    color: white;
+    background: #faae11 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 20px 76px;
     text-transform: uppercase;
@@ -207,7 +203,7 @@
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 0.38px;
-    color: rgba(255, 255, 255, 1);
+    color: white;
     opacity: 1;
 }
 
@@ -216,7 +212,7 @@
     background: #2e2e2e 0% 0% no-repeat padding-box;
     border-radius: 7px;
     padding-left: 15px;
-    border:0px solid transparent;
+    border: 0px solid transparent;
     padding-right: 15px;
     width: 100%;
     letter-spacing: 0.33px;
@@ -226,7 +222,6 @@
     font-weight: 300;
     font-size: 13px;
 }
-
 
 .newsletter-field::-webkit-input-placeholder {
     letter-spacing: 0.33px;
@@ -246,8 +241,7 @@
     font-size: 13px;
 }
 
-
-@media(max-width:992px) {
+@media (max-width: 992px) {
     .footer-styling {
         height: 100%;
     }
@@ -257,11 +251,11 @@
     }
 
     .each-footer-link-hr {
-        display:none;
+        display: none;
     }
 
     .copyright-path {
-       margin-top:0px;
+        margin-top: 0px;
     }
 
     .footer-center-content {
@@ -271,12 +265,45 @@
 
     .each-footer-link li {
         margin-right: 0px;
-        display:block;
+        display: block;
         margin-bottom: 10px;
     }
 
     .footer-content {
         width: 100%;
         padding-top: 32px;
+        padding-left: 15px !important;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .footer-content {
+        padding-left: 15px !important;
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .icon-positioning {
+        width: 140px;
+        margin-right: 40px;
+        margin-left: 15px;
+    }
+
+    .footer-center-content {
+        max-width: 610px;
+        margin-right: 10px !important;
+    }
+
+    .each-footer-link {
+        font-size: 16px;
+    }
+
+    .sm-icon-section {
+        width: 200px;
+    }
+
+    .main-paragraph-content {
+        font-size: 14px !important;
     }
 }

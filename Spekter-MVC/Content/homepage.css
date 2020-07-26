@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 768px) {
   .sliderHomepage .carousel-caption {
-    right: 20%;
+    right: 0;
     left: 0;
     padding-bottom: 30px;
     text-align: left; } }
@@ -19,8 +19,6 @@
   opacity: 1; }
 
 .sliderHomepage .button-carousel-styling {
-  /* width: 238px; */
-  /* height: 50px; */
   background: #faae11 0% 0% no-repeat padding-box;
   opacity: 1;
   text-align: center;
@@ -31,6 +29,9 @@
   opacity: 1;
   display: inline-block;
   padding: 13px 85px; }
+
+.sliderHomepage .button-carousel-styling:hover {
+  text-decoration: none; }
 
 .sliderHomepage .carousel-indicators li {
   font-weight: 300;

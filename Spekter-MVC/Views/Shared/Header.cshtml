@@ -20,10 +20,10 @@
                 <li><a class="active real-links" href="/Home">Home</a></li>
                 <li><a class="real-links" href="/Product/CategoryDetails/Men">Men</a></li>
                 <li><a class="real-links" href="#">Ladies</a></li>
-                <li><a class="real-links" href="#">Contact Us</a></li>
-                <li><a class="utility-links search-header" href="javascript:void(0)"><span class="search-icon-css"></span></a></li>
-                <li><a class="utility-links cart-header" href="/Cart"><span class="icon-cart-css"></span></a></li>
-                <li><a data-toggle="modal" data-target="#myModalSignup" class="utility-links account-header" href="javascript:void(0)"><span class="icon-account-css"></span></a><span></span></li>
+                <li><a class="real-links" href="#contact-us-section">Contact Us</a></li>
+                <li><a class="utility-links search-header" data-toggle="modal" data-target="#myModalSearch" href="javascript:void(0)"><span class="search-icon-css"></span></a></li>
+                <li><a class="utility-links cart-header" href="/Cart"><span class="icon-cart-css"></span><span class="badge">2</span></a></li>
+                <li><a  class="utility-links account-header" href="javascript:void(0)"><span class="icon-account-css"></span></a><span></span></li>
 
                 @*<li><a  class="utility-links account-header" href="/Account"><span class="icon-account-css"></span></a><span></span></li>*@
 
@@ -102,6 +102,40 @@
 
                     </form>
                 </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="myModalSearch" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header clearfix">
+                <h4 class="modal-title">Search Product</h4>
+            </div>
+            <div class="modal-body clearfix">
+                <div class="col-sm-12 col-md-12 no-padding">
+                    <form>
+                        <div class="col-md-12 no-padding mt10">
+                            <input class="modal-field-signup search-field" placeholder="Enter Product Name" />
+                        </div>
+
+                        <div class="col-md-12 no-padding mt10">
+                            <button type="submit" class="submit-button">Search</button>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="col-sm-12 col-md-12 no-padding result mt20">
+                   <span>No Result Found</span>
+                </div>
+
+
             </div>
 
         </div>

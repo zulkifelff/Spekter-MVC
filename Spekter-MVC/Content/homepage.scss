@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 768px) {
     .sliderHomepage .carousel-caption {
-        right: 20%;
+        right: 0;
         left: 0;
         padding-bottom: 30px;
         text-align: left;
@@ -23,8 +23,6 @@
 }
 
 .sliderHomepage .button-carousel-styling {
-    /* width: 238px; */
-    /* height: 50px; */
     background: #faae11 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
@@ -35,6 +33,10 @@
     opacity: 1;
     display: inline-block;
     padding: 13px 85px;
+}
+
+.sliderHomepage .button-carousel-styling:hover {
+    text-decoration: none;
 }
 
 .sliderHomepage .carousel-indicators li {
@@ -190,9 +192,9 @@
     padding-bottom: 25px;
 }
 
-.featured-category-section { 
-    background: #000000 url('Images/pattren.jpg') no-repeat center bottom;
-    background-size:contain;
+.featured-category-section {
+    background: #000000 url("Images/pattren.jpg") no-repeat center bottom;
+    background-size: contain;
 }
 
 .layer-text-img {
@@ -345,9 +347,8 @@
         height: calc(300px - 30px);
     }
 
-    .each-featured-product .img-responsive
-    {
-        width:100%;
+    .each-featured-product .img-responsive {
+        width: 100%;
     }
 
     .each-featured-product {
@@ -359,10 +360,4 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
-    .each-feed-section
-    {
-
-    }
 }
-

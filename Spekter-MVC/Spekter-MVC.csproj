@@ -216,6 +216,7 @@
     <Content Include="Content\Images\banner_4.png" />
     <Content Include="Content\Images\banner_5%402x.png" />
     <Content Include="Content\Images\banner_5.png" />
+    <Content Include="Content\Images\black-jacket-matter.jpg" />
     <Content Include="Content\Images\blk.svg" />
     <Content Include="Content\Images\broccoli%402x.png" />
     <Content Include="Content\Images\broccoli.png" />
@@ -318,6 +319,8 @@
     <Content Include="Content\Images\rBVaVFw-_aWAYsxxAAHphEX7Vfw867-2%402x.png" />
     <Content Include="Content\Images\rBVaVFw-_aWAYsxxAAHphEX7Vfw867-2.png" />
     <Content Include="Content\Images\rBVaVFw-_aWAYsxxAAHphEX7Vfw867.png" />
+    <Content Include="Content\Images\search.png" />
+    <Content Include="Content\Images\sweet-jacket.png" />
     <Content Include="Content\Images\trash.svg" />
     <Content Include="Content\Images\twitter-icon-footer.svg" />
     <Content Include="Content\Images\twitter.svg" />

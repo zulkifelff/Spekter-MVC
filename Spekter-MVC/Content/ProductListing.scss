@@ -73,3 +73,10 @@
         width: calc(25% - 15px);
     }
 }
+
+
+@media screen and (orientation:portrait) and (max-width: 768px) {
+    #price-filter {
+        width: 172px !important;
+    }
+}

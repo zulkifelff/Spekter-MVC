@@ -72,7 +72,7 @@
     }
 
     .navbar-nav > li > a.real-links {
-        margin-right: 57px;
+        margin-right: 40px;
         padding-top: 22px;
         padding-bottom: 22px;
     }
@@ -133,6 +133,225 @@
     font-size: 16px;
     letter-spacing: -0.16px;
 }
+
+
+#myModalSignup .modal-title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#myModalSignup .modal-footer {
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+}
+
+
+#myModalSignup .modal-body input {
+    border: 0px solid transparent;
+    background: #F0F4F8 0% 0% no-repeat padding-box;
+    height: 42px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: -0.14px;
+    color: #A6BCD0;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+
+#myModalSignup .modal-body input.username-field {
+    background: #F0F4F8 url('Images/username.png') no-repeat 3% center;
+}
+
+
+#myModalSignup .modal-body input.password-field {
+    background: #F0F4F8 url('Images/password.png') no-repeat 3% center;
+}
+
+
+#myModalSignup .modal-body input.email-field {
+    background: #F0F4F8 url('Images/email.png') no-repeat 3% center;
+}
+
+
+
+
+#myModalSignup .modal-body input::-webkit-input-placeholder {
+    color: #A6BCD0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#myModalSignup .modal-body input:-ms-input-placeholder {
+    color: #A6BCD0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#myModalSignup .modal-header {
+    padding: 15px 15px 5px 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+
+#myModalSignup .modal-header {
+    padding: 15px 15px 5px 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+
+@media (min-width: 768px) {
+    #myModalSignup .modal-dialog {
+        width: 300px;
+        margin: 30px auto;
+    }
+}
+
+
+#myModalSignup .modal-body .submit-button {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #FAAE11 0% 0% no-repeat padding-box;
+    text-transform: uppercase;
+    width: 100%;
+    border: 0px solid;
+    padding: 9px 0px;
+}
+
+
+
+#myModalSearch .modal-title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#myModalSearch .modal-footer {
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+}
+
+
+#myModalSearch .modal-title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#myModalSearch .modal-footer {
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+}
+
+
+#myModalSearch .modal-body input {
+    border: 0px solid transparent;
+    background: #F0F4F8 0% 0% no-repeat padding-box;
+    height: 42px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: -0.14px;
+    color: #A6BCD0;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+
+#myModalSearch .modal-body input.username-field {
+    background: #F0F4F8 url('Images/username.png') no-repeat 3% center;
+}
+
+
+#myModalSearch .modal-body input.password-field {
+    background: #F0F4F8 url('Images/password.png') no-repeat 3% center;
+}
+
+
+#myModalSearch .modal-body input.search-field {
+    background: #F0F4F8 url('Images/search.png') no-repeat 3% center;
+}
+
+
+#myModalSearch .modal-body input.email-field {
+    background: #F0F4F8 url('Images/email.png') no-repeat 3% center;
+}
+
+
+
+
+#myModalSearch .modal-body input::-webkit-input-placeholder {
+    color: #A6BCD0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#myModalSearch .modal-body input:-ms-input-placeholder {
+    color: #A6BCD0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#myModalSearch .modal-header {
+    padding: 15px 15px 5px 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+
+#myModalSearch .modal-header {
+    padding: 15px 15px 5px 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+
+@media (min-width: 768px) {
+    #myModalSearch .modal-dialog {
+        width: 300px;
+        margin: 30px auto;
+    }
+}
+
+
+#myModalSearch .modal-body .submit-button {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #FAAE11 0% 0% no-repeat padding-box;
+    text-transform: uppercase;
+    width: 100%;
+    border: 0px solid;
+    padding: 9px 0px;
+}
+
 
 .black-color {
     color: #1F1F1F;
@@ -199,4 +418,26 @@
     width: 100%;
     border: 0px solid;
     padding: 9px 0px;
+}
+
+.cart-header .badge {
+    vertical-align: top;
+    background-color: #FAAE11;
+    color: #1f1f1f;
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .navbar-nav > li > a.real-links {
+        margin-right: 30px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
 }
