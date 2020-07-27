@@ -282,3 +282,8 @@
     text-align: right; }
   .table-quantity-btn {
     display: initial; } }
+
+@media screen and (orientation: landscape) and (max-width: 992px) {
+  .margin-button-quantity {
+    margin-left: 11px;
+    margin-right: 11px; } }

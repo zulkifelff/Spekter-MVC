@@ -212,7 +212,7 @@
 .image-product-sect {
   overflow: hidden; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .list-image-icons {
     width: 100%;
     display: flex;
@@ -220,6 +220,7 @@
   .list-image-icons li {
     margin-bottom: 0px;
     cursor: default;
-    margin-right: 15px; }
+    margin-right: 0px;
+    margin-left: 15px; }
   .list-image-icons li img {
     max-height: 147px; } }

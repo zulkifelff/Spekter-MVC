@@ -27,7 +27,7 @@
         $(document).ready(function () {
 
             function ToggleSignInMenu() {
-              
+
             }
 
             $(".tab-pill").click(function () {
@@ -40,10 +40,10 @@
 
             });
 
-            
 
 
-            $(".account-header").click(function () {
+
+            $(".account-header.desktop").click(function () {
 
                 var myDropdown = document.getElementById("myDropdown");
                 if (myDropdown.classList.contains('show')) {
@@ -57,10 +57,19 @@
             });
 
 
-           
+            $(".account-header.mobile-account").click(function () {
+
+
+                $('#myModalSigninMobile').modal('show');
+
+
+            });
+
+
+
 
             $(".go-to-signup").click(function () {
-               
+
                 var myDropdown = document.getElementById("myDropdown");
                 if (myDropdown.classList.contains('show')) {
                     myDropdown.classList.remove('show');
@@ -73,8 +82,14 @@
             });
 
 
+            $('.go-to-signin-mobile').click(function () {
+
+                $('#myModalSigninMobile').modal('hide');
+                $('#myModalSignup').modal('show');
+            });
+
             $(".go-to-signin").click(function () {
-                
+
                 var myDropdown = document.getElementById("myDropdown");
                 if (myDropdown.classList.contains('show')) {
                     myDropdown.classList.remove('show');
