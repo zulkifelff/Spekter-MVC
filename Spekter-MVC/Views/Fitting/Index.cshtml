@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "Fitting Guide";
+}
+
+
+@{
+    string headingTextVariable = "Fitting Guide";
+    string backgroundImageURL = "/Content/Images/privacy.png";
+    var modelVariable = Model;
+}
+
+<style>
+    .unsort-list {
+        clear: both;
+        height: auto;
+        display: table;
+        width: 100%;
+    }
+</style>
+@*@Html.Partial("~/Views/Shared/Breadcrumbs.cshtml", new ViewDataDictionary { { "breadcrumbData", modelVariable } })*@
+@Html.Partial("~/Views/Shared/Jumbotron.cshtml", new ViewDataDictionary { { "headingText", headingTextVariable }, { "backgroundImage", backgroundImageURL } })
+
+<div class="container no-padding mb35">
+    <div class="page-content-start clearfix">
+        <div class="page-content">
+            <h2 class="main-heading-content mt42">TAILORED FOR YOU!</h2>
+            <p class="main-paragraph-content mt15">
+                Unlike other stores that sell you mass produced clothing with set sizes and trims, each of our leather/denim garments are tailored, cut and sown specifically for you. Here’s a look at our base sizes and the information we need when you order to get you the best fit.
+            </p>
+
+            <h2 class="main-heading-content mt42">Sizing Chart</h2>
+            <p class="main-paragraph-content mt15">
+                All sizes have room accounted for a hoodie or jacket! Measure your chest and go with the measurement that your chest measures because the sizes run true…. If your stomach is bigger than your chest go with your stomach size… If you are in between sizes go with the larger size
+            </p>
+
+            <ul class="unsort-list">
+                <li class="col-sm-12 col-md-4">
+                    <span>Small</span>
+                    <span>38”-40”</span>
+
+                </li>
+
+                <li class="col-sm-12 col-md-4">
+                    <span>Medium</span>
+                    <span>42”-44”</span>
+
+                </li>
+
+                <li class="col-sm-12 col-md-4">
+                    <span>Large</span>
+                    <span>46”-48”</span>
+
+                </li>
+
+                <li class="col-sm-12 col-md-4">
+                    <span>X Large</span>
+                    <span>50”-52”</span>
+
+                </li>
+
+                <li class="col-sm-12 col-md-4">
+                    <span>XX Large</span>
+                    <span>54”-56”</span>
+
+
+                </li>
+                <li class="col-sm-12 col-md-4">
+                    <span>XXX Large</span>
+                    <span>58”-60”</span>
+
+
+                </li>
+
+            </ul>
+
+
+
+            <h2 class="main-heading-content mt42">HOW TO MEASURE</h2>
+            <h3 class="sub-heading-content mt20">Neck</h3>
+            <p class="main-paragraph-content mt15">
+                Measure your neck. Wrap the tape measure around your neck, just below your Adam’s apple. The tape measure should be snug, but not tight. Write down the measurement around your neck.
+            </p>
+
+
+            <h3 class="sub-heading-content mt20">
+                Around Chest
+            </h3>
+            <p class="main-paragraph-content mt15">
+                Wrap the tape measure around the fullest portion of your chest and keep it parallel to the floor. Raise your hands above your head and slowly lower them to your sides. Take the measurement and write it down.
+            </p>
+
+
+            <h3 class="sub-heading-content mt20">
+                Around Waist
+            </h3>
+            <p class="main-paragraph-content mt15">
+                Wrap the tape measure around your waist, keeping the measure level with your belly button. Take the measurement and write it down. Slide the tape measure down over your belt line and take the measurement.
+            </p>
+
+
+            <h3 class="sub-heading-content mt20">Bicep</h3>
+            <p class="main-paragraph-content mt15">
+                Take a measurement around your flexed bicep.
+            </p>
+
+
+            <h3 class="sub-heading-content mt20">Back</h3>
+            <p class="main-paragraph-content mt15">
+                Measure from the outer upper most part of the shoulder to shoulder. Write it down.
+            </p>
+
+            <h3 class="sub-heading-content mt20">Arm Length</h3>
+            <p class="main-paragraph-content mt15">
+                From the upper most part of the outside of your shoulder to just above your knuckles while keeping arm straight as possible. Write it down
+            </p>
+
+            <h3 class="sub-heading-content mt20">Lenth</h3>
+            <p class="main-paragraph-content mt15">
+                Place in the upper most part of your shoulder and measure to your belt line. NOTE: Too long of length may create a “pushing up” affect while you are seated so please ensure you stop at your waist line. Write it down.
+            </p>
+
+
+
+        </div>
+    </div>
+</div>

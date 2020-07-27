@@ -124,6 +124,7 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
+    <Compile Include="Controllers\FittingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
@@ -425,6 +426,7 @@
     <Content Include="Views\Product\Details.cshtml" />
     <Content Include="Views\Order\Index.cshtml" />
     <Content Include="Views\Terms\Index.cshtml" />
+    <Content Include="Views\Fitting\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
