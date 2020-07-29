@@ -159,17 +159,21 @@
     </Content>
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\Cart.css" />
+    <Content Include="Content\Cart.css.map" />
     <Content Include="Content\Cart.min.css">
       <DependentUpon>Cart.css</DependentUpon>
     </Content>
+    <Content Include="Content\Cart.scss" />
     <Content Include="Content\confirm_password%402x.png" />
     <Content Include="Content\confirm_password.png" />
     <Content Include="Content\email%402x.png" />
     <Content Include="Content\email.png" />
     <Content Include="Content\faq.css" />
+    <Content Include="Content\faq.css.map" />
     <Content Include="Content\faq.min.css">
       <DependentUpon>faq.css</DependentUpon>
     </Content>
+    <Content Include="Content\faq.scss" />
     <Content Include="Content\fitting_guide%402x.png" />
     <Content Include="Content\footer.css">
       <DependentUpon>footer.scss</DependentUpon>
@@ -208,15 +212,20 @@
     <Content Include="Content\Images\1fe6c82a3080f77861561ea362a0887a.png" />
     <Content Include="Content\Images\allef-vinicius-0JuH3xmGZ4o-unsplash%402x.png" />
     <Content Include="Content\Images\allef-vinicius-0JuH3xmGZ4o-unsplash.png" />
+    <Content Include="Content\Images\banner_1%402x-min.png" />
     <Content Include="Content\Images\banner_1%402x.png" />
     <Content Include="Content\Images\banner_1.png" />
+    <Content Include="Content\Images\banner_2%402x-min.png" />
     <Content Include="Content\Images\banner_2%402x.png" />
     <Content Include="Content\Images\banner_2.png" />
     <Content Include="Content\Images\banner_2.zip" />
+    <Content Include="Content\Images\banner_3%402x-min.png" />
     <Content Include="Content\Images\banner_3%402x.png" />
     <Content Include="Content\Images\banner_3.png" />
+    <Content Include="Content\Images\banner_4%402x-min.png" />
     <Content Include="Content\Images\banner_4%402x.png" />
     <Content Include="Content\Images\banner_4.png" />
+    <Content Include="Content\Images\banner_5%402x-min.png" />
     <Content Include="Content\Images\banner_5%402x.png" />
     <Content Include="Content\Images\banner_5.png" />
     <Content Include="Content\Images\black-jacket-matter.jpg" />
@@ -261,6 +270,7 @@
     <Content Include="Content\Images\favicons\favicon-32x32.png" />
     <Content Include="Content\Images\favicons\favicon-96x96.png" />
     <Content Include="Content\Images\favicons\favicon.ico" />
+    <Content Include="Content\Images\favicons\manifest.json" />
     <Content Include="Content\Images\favicons\ms-icon-144x144.png" />
     <Content Include="Content\Images\favicons\ms-icon-150x150.png" />
     <Content Include="Content\Images\favicons\ms-icon-310x310.png" />
@@ -375,14 +385,19 @@
     <Content Include="Content\OrderDetail.min.css">
       <DependentUpon>OrderDetail.css</DependentUpon>
     </Content>
+    <Content Include="Content\OrderDetail.scss" />
     <Content Include="Content\password%402x.png" />
     <Content Include="Content\password.png" />
     <Content Include="Content\ProductDetails.css" />
+    <Content Include="Content\ProductDetails.css.map" />
     <Content Include="Content\ProductDetails.min.css">
       <DependentUpon>ProductDetails.css</DependentUpon>
     </Content>
+    <Content Include="Content\ProductDetails.scss" />
     <Content Include="Content\ProductListing.css" />
+    <Content Include="Content\ProductListing.css.map" />
     <Content Include="Content\ProductListing.min.css" />
+    <Content Include="Content\ProductListing.scss" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
@@ -399,16 +414,8 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\ProductListing.scss" />
-    <Content Include="Content\ProductListing.css.map" />
-    <Content Include="Content\faq.scss" />
-    <Content Include="Content\faq.css.map" />
-    <Content Include="Content\Cart.css.map" />
-    <Content Include="Content\Cart.scss" />
-    <Content Include="Content\ProductDetails.scss" />
-    <Content Include="Content\ProductDetails.css.map" />
-    <Content Include="Content\OrderDetail.scss" />
-    <Content Include="Content\Images\favicons\manifest.json" />
+    <Content Include="Content\homepage.css.map" />
+    <Content Include="Content\HomepageComment.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
