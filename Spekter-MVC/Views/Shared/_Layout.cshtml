@@ -34,6 +34,28 @@
 
         @Html.Partial("~/Views/Shared/Footer.cshtml")
 
+        <!--Signup Modal-->
+        <div id="dissmissablePopupDesign" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header clearfix">
+                        <h4 id="title-dissmissablePopupDesign" class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body clearfix">
+                        <div class="col-sm-12 col-md-12 no-padding">
+
+                            <p id="content-dissmissablePopupDesign"></p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
 
     @Scripts.Render("~/bundles/jquery")
@@ -41,11 +63,44 @@
     @RenderSection("scripts", required: false)
 
     <script>
+
+        function triggerPopup(headingText, bodyText, incomingBoolean) {
+            $('#dissmissablePopupDesign').modal('show');
+
+            $('#title-dissmissablePopupDesign').empty();
+            $('#content-dissmissablePopupDesign').empty();
+
+            $('#title-dissmissablePopupDesign').html(headingText);
+            $('#content-dissmissablePopupDesign').html(bodyText);
+
+
+            var isTrueSet = (incomingBoolean.toLowerCase() === 'true');
+
+            if (isTrueSet) {
+                setTimeout(function () {
+
+                    // code to close the modal
+
+                    $('#dissmissablePopupDesign').modal('hide');
+
+                }, 2500);
+            }
+            else {
+
+            }
+
+
+
+        }
+
+
         $(document).ready(function () {
 
             function ToggleSignInMenu() {
 
             }
+
+
 
             $(".tab-pill").click(function () {
                 var currentElement = $(this);

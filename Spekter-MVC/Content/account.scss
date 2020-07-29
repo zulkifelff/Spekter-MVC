@@ -18,6 +18,26 @@
     }
 }
 
+.detail-order-btn {
+    background: #FAAE11 0% 0% no-repeat padding-box;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.18px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 0px solid transparent;
+    padding: 4px 32px;
+    width: 100%;
+}
+
+
+.detail-order-btn:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
 .label-account-detail {
     font-size: 22px;
     font-weight: 600;
@@ -68,35 +88,35 @@
     display: table-cell;
 
     &:nth-child(1) {
-        width: 133px;
+        min-width: 133px;
     }
 
     &:nth-child(2) {
-        width: 108px;
+        min-width: 108px;
     }
 
     &:nth-child(3) {
-        width: 166px;
+        min-width: 166px;
     }
 
     &:nth-child(4) {
-        width: 124px;
+        min-width: 124px;
     }
 
     &:nth-child(5) {
-        width: 137px;
+        min-width: 137px;
     }
 
     &:nth-child(6) {
-        width: 129px;
+        min-width: 129px;
     }
 
     &:nth-child(7) {
-        width: 190px;
+        min-width: 190px;
     }
 
     &:nth-child(8) {
-        width: 183px;
+        min-width: 183px;
     }
 }
 
@@ -324,5 +344,40 @@
         letter-spacing: -0.22px;
         color: black;
         opacity: 1;
+    }
+}
+
+
+.table-header-center {
+    &:nth-child(1) {
+        min-width: 133px;
+    }
+
+    &:nth-child(2) {
+        min-width: 108px;
+    }
+
+    &:nth-child(3) {
+        min-width: 166px;
+    }
+
+    &:nth-child(4) {
+        min-width: 124px;
+    }
+
+    &:nth-child(5) {
+        min-width: 137px;
+    }
+
+    &:nth-child(6) {
+        min-width: 129px;
+    }
+
+    &:nth-child(7) {
+        min-width: 190px;
+    }
+
+    &:nth-child(8) {
+        min-width: 183px;
     }
 }
